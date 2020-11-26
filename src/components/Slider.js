@@ -3,25 +3,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import AliceCarousel from 'react-alice-carousel';
 import { Link } from 'react-router-dom';
 
-const Slider = () => {
-  const images = [
-    {
-      src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
-      title: 'Home Renovation',
-    },
-    {
-      src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
-      title: 'Bathroom Renovation',
-    },
-    {
-      src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
-      title: 'Kitchen Renovation',
-    },
-    {
-      src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
-      title: 'New Construction',
-    },
-  ];
+const Slider = ({ images }) => {
   return (
     <div className='slider__container'>
       <AliceCarousel

@@ -1,9 +1,13 @@
 import React from 'react';
 import Slider from '../components/Slider';
+import HomeServices from '../components/HomeServices';
+import { images, sliderImages } from '../homeimages';
+
 const HomeScreen = () => {
   return (
     <div>
-      <Slider />
+      <Slider images={sliderImages} />
+      <HomeServices images={images} />
     </div>
   );
 };
