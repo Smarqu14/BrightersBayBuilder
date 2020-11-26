@@ -5,7 +5,13 @@ import { LinkContainer } from 'react-router-bootstrap';
 const Header = () => {
   return (
     <header>
-      <Navbar bg='primary' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar
+        bg='primary'
+        variant='dark'
+        expand='lg'
+        collapseOnSelect
+        fixed='top'
+      >
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>BRIGHT BAY BUILDERS</Navbar.Brand>
@@ -41,7 +47,6 @@ const Header = () => {
               <LinkContainer to='/estimate'>
                 <Nav.Link>
                   <button className='fas fa-calculator btn-estimate'>
-                    {' '}
                     GET YOUR ESTIMATE
                   </button>
                 </Nav.Link>

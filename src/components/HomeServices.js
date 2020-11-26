@@ -1,23 +1,28 @@
 import React from 'react';
-import { Row, Col, Container, CardDeck } from 'react-bootstrap';
-import HomeServicesItem from './HomeServicesItem';
+import { Link } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 
 const HomeServices = ({ images }) => {
+  const imgs = images.map((img, idx) => {
+    return (
+      <div
+        className={`${img.class} 
+        gallery__listing`}
+        key={idx}
+      >
+        <Link to={`/projects`}>
+          <p className='gallery__title'>{img.title}</p>
+        </Link>
+        <p className='service__title'>{img.title}</p>
+
+        <img src={img.src} alt={img.title} className='gallery__img' />
+      </div>
+    );
+  });
   return (
-    <>
-      <Container fluid className='mt-5'>
-        >
-        <Row>
-          {images.map((img, idx) => (
-            <Col key={idx} sm={12} md={6} lg={4} xl={3}>
-              <CardDeck>
-                <HomeServicesItem img={img} />
-              </CardDeck>
-            </Col>
-          ))}
-        </Row>
-      </Container>
-    </>
+    <Container fluid className='p-0'>
+      <div className='gallery'>{imgs}</div>;
+    </Container>
   );
 };
 

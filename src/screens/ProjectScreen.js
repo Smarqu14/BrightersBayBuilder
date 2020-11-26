@@ -1,7 +1,11 @@
 import React from 'react';
 
 const ProjectScreen = () => {
-  return <div>PROJECT SCREEN</div>;
+  return (
+    <div className='hello'>
+      <h1>HELLOO</h1>
+    </div>
+  );
 };
 
 export default ProjectScreen;
