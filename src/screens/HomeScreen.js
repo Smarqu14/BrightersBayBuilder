@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from '../components/Slider';
 import HomeServices from '../components/HomeServices';
-import { images, sliderImages } from '../homeimages';
+import { images, sliderImages } from '../homepageData';
 import HomeReviews from '../components/HomeReviews';
 
 const HomeScreen = () => {
@@ -9,7 +9,7 @@ const HomeScreen = () => {
     <div>
       <Slider images={sliderImages} />
       <HomeServices images={images} />
-      {/* <HomeReviews images={images} /> */}
+      <HomeReviews images={images} />
     </div>
   );
 };

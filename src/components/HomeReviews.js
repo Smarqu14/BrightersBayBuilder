@@ -1,19 +1,69 @@
 import React from 'react';
-import { Container, CardDeck, Row, Col } from 'react-bootstrap';
+import { Card, Container, Button, Row, Col } from 'react-bootstrap';
+import { reviews } from '../homepageData';
+import Rating from './Rating';
 
 const HomeReviews = ({ images }) => {
   return (
     <>
-      <Container fluid className='mt-5'>
-        <Row>
-          {images.map((img, idx) => (
-            <Col key={idx} sm={12} md={6} lg={4} xl={3}>
-              <CardDeck>
-                {/* <HomeServicesItem img={img} className='effect-scale' /> */}
-              </CardDeck>
-            </Col>
-          ))}
-        </Row>
+      <Container fluid className='mt-5 py-5'>
+        <div className='reviews__title'>
+          <h1>Customers Reviews</h1>
+          <p>Learn why customers choose Bright Bay Builders</p>
+        </div>
+
+        <Container>
+          <Row>
+            {reviews.map((review, idx) => (
+              <Col key={idx} sm={4} md={4} lg={4} xl={4}>
+                <Card className='card-body-reviews'>
+                  <Card.Body>
+                    <Card.Title>{review.name}</Card.Title>
+                    <div>
+                      <span>
+                        <i
+                          style={{ color: 'red' }}
+                          className={'fas fa-star'}
+                        ></i>
+                      </span>{' '}
+                      <span>
+                        <i
+                          style={{ color: 'red' }}
+                          className={'fas fa-star'}
+                        ></i>
+                      </span>{' '}
+                      <span>
+                        <i
+                          style={{ color: 'red' }}
+                          className={'fas fa-star'}
+                        ></i>
+                      </span>{' '}
+                      <span>
+                        <i
+                          style={{ color: 'red' }}
+                          className={'fas fa-star'}
+                        ></i>
+                      </span>{' '}
+                      <span>
+                        <i
+                          style={{ color: 'red' }}
+                          className={'fas fa-star'}
+                        ></i>
+                      </span>
+                    </div>
+                    <br />
+                    <Card.Text>
+                      <span>
+                        <i className={'fas fa-quote-left'}></i>
+                      </span>{' '}
+                      {review.review}
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
       </Container>
     </>
   );

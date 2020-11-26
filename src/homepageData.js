@@ -39,4 +39,22 @@ export const sliderImages = [
   },
 ];
 
-export default { images, sliderImages };
+export const reviews = [
+  {
+    name: 'Clara Fuentes',
+    review:
+      ' As the final touches are made on the gut renovation of my Central Park West pre-war apartment, I am amazed not only at the beauty and quality of the work done by United Elite Group, but also by the degree of trust and confidence.',
+  },
+  {
+    name: 'Francis Underwood',
+    review:
+      ' As the final touches are made on the gut renovation of my Central Park West pre-war apartment, I am amazed not only at the beauty and quality of the work done by United Elite Group, but also by the degree of trust and confidence.',
+  },
+  {
+    name: 'Patric Phanton',
+    review:
+      ' As the final touches are made on the gut renovation of my Central Park West pre-war apartment, I am amazed not only at the beauty and quality of the work done by United Elite Group, but also by the degree of trust and confidence.',
+  },
+];
+
+export default { images, sliderImages, reviews };
