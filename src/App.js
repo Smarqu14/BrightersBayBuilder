@@ -15,8 +15,8 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className='py-3'>
-        <Container>
+      <main className='py-0'>
+        <Container fluid className='p-0'>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/about' component={AboutScreen} />
           <Route path='/projects' component={ProjectScreen} />

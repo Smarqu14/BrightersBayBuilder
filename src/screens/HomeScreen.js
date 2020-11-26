@@ -1,7 +1,11 @@
 import React from 'react';
-
+import Slider from '../components/Slider';
 const HomeScreen = () => {
-  return <div>Hello world this is home</div>;
+  return (
+    <div>
+      <Slider />
+    </div>
+  );
 };
 
 export default HomeScreen;

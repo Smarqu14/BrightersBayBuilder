@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
@@ -15,32 +15,35 @@ const Header = () => {
             <Nav className='ml-auto'>
               <LinkContainer to='/'>
                 <Nav.Link>
-                  <i className='fas fa-home'></i>&nbsp;HOME
+                  <i className='fas fa-home'></i>HOME
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/about'>
                 <Nav.Link>
-                  <i className='fas fa-users'></i>&nbsp;ABOUT US
+                  <i className='fas fa-users'></i>ABOUT US
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/projects'>
                 <Nav.Link>
-                  <i className='fas fa-hammer'></i>&nbsp;PROJECTS
+                  <i className='fas fa-hammer'></i>PROJECTS
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/services'>
                 <Nav.Link>
-                  <i className='fas fa-paint-roller'></i>&nbsp;SERVICES
+                  <i className='fas fa-paint-roller'></i>SERVICES
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/contact'>
                 <Nav.Link>
-                  <i className='fas fa-address-card'></i>&nbsp;CONTACT
+                  <i className='fas fa-address-card'></i>CONTACT
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/estimate'>
                 <Nav.Link>
-                  <i className='fas fa-calculator'></i>&nbsp;GET YOUR ESTIMATE
+                  <button className='fas fa-calculator btn-estimate'>
+                    {' '}
+                    GET YOUR ESTIMATE
+                  </button>
                 </Nav.Link>
               </LinkContainer>
             </Nav>

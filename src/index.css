@@ -1,3 +1,124 @@
 main {
   min-height: 80vh;
 }
+
+.fas {
+  padding-right: 0.8px;
+}
+/* NAVBAR */
+.btn-estimate {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #149a80;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.btn-estimate:hover {
+  background: #149a60;
+}
+
+/* SLIDER */
+.slider__container {
+  display: flex;
+  box-align: center;
+  align-items: center;
+  box-pack: center;
+  justify-content: center;
+}
+.slider__img {
+  background: no-repeat center center fixed;
+  height: 84vh;
+  opacity: 0.7;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.slider__text {
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+.slider__title {
+  font-size: 6.5em;
+  color: #2c3e50;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.slider__btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.slider__btn:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.slider__btn-effect {
+  color: #fff;
+  padding-top: 7px;
+  border: 4px solid transparent;
+  background-color: #1e2b37;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.slider__btn-effect:hover {
+  background-color: #149a80;
+  color: #1e2b37;
+}
+
+/*btn_text*/
+.slider__btn-effect button {
+  transition: all 0.2s ease-out;
+  z-index: 2;
+}
+.slider__btn-effect:hover button {
+  letter-spacing: 0.13em;
+  color: black;
+}
+
+/*highlight*/
+.slider__btn-effect:after {
+  background: #149a80;
+  border: 0px solid #000;
+  content: '';
+  height: 155px;
+  left: -75px;
+  opacity: 0.8;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+  width: 50px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); /*easeOutCirc*/
+  z-index: 1;
+}
+.slider__btn-effect:hover:after {
+  background: #149a60;
+  border: 20px solid #000;
+  opacity: 0;
+  left: 120%;
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+.slider__btn:hover {
+  text-decoration: none;
+}
