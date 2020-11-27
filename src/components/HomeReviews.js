@@ -6,13 +6,17 @@ import Rating from './Rating';
 const HomeReviews = ({ images }) => {
   return (
     <>
-      <Container fluid className='mt-5 py-5'>
-        <div className='reviews__title'>
+      <Container
+        className='pb-5'
+        fluid
+        style={{ 'background-color': '#f4f4f4' }}
+      >
+        <div className='section__title'>
           <h1>Customers Reviews</h1>
           <p>Learn why customers choose Bright Bay Builders</p>
         </div>
 
-        <Container className='my-auto'>
+        <Container>
           <Row>
             {reviews.map((review, idx) => (
               <Col key={idx} sm={4} md={4} lg={4} xl={4}>

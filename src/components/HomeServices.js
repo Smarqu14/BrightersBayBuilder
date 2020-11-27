@@ -15,7 +15,11 @@ const HomeServices = ({ images }) => {
   });
   return (
     <Container fluid className='p-0'>
-      <div className='gallery'>{imgs}</div>;
+      <div className='section__title'>
+        <h1>Remodeling</h1>
+        <p>This is what we do. </p>
+      </div>
+      <div className='gallery'>{imgs}</div>
     </Container>
   );
 };

@@ -12,10 +12,11 @@ const Slider = ({ images }) => {
         playButtonEnabled={true}
         autoPlayActionDisabled={true}
         fadeOutAnimation={true}
-        autoPlayInterval={3000}
+        autoPlayInterval={2000}
         autoPlayDirection='rtl'
         mouseTrackingEnabled={true}
         disableAutoPlayOnAction={true}
+        autoPlayControls={false}
       >
         {images.map((img) => {
           return (

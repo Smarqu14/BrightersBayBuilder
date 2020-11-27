@@ -3,12 +3,24 @@ import { Container } from 'react-bootstrap';
 
 const Form = () => {
   return (
-    <Container fluid>
-      <div className='form__container'>
+    <Container>
+      <div className='contact__container'>
+        <div className='contact__details'>
+          <div className='contact__details-info'>asdasd</div>
+        </div>
+        <div className='contact__information'>
+          <h2>Feel free to contact us!</h2>
+          <p>
+            Get in touch with our representative at any time you please use our
+            contact form on our website or one of our contact numbers. Let us
+            build your future together. You can always visit us at our HQ, we
+            have a friendly staff and a mean cup of coffee.
+          </p>
+        </div>
         <form className='form'>
-          <ul className='form__flex-outer'>
+          <ul className='form__outer'>
             <li>
-              <label for='first-name'>First Name</label>
+              <label htmlFor='first-name'>First Name</label>
               <input
                 type='text'
                 id='first-name'
@@ -17,7 +29,7 @@ const Form = () => {
               />
             </li>
             <li>
-              <label for='last-name'>Last Name</label>
+              <label htmlFor='last-name'>Last Name</label>
               <input
                 required
                 type='text'
@@ -26,7 +38,7 @@ const Form = () => {
               />
             </li>
             <li>
-              <label for='email'>Email</label>
+              <label htmlFor='email'>Email</label>
               <input
                 required
                 type='email'
@@ -35,7 +47,7 @@ const Form = () => {
               />
             </li>
             <li>
-              <label for='phone'>Phone</label>
+              <label htmlFor='phone'>Phone</label>
               <input
                 required
                 type='tel'
@@ -44,7 +56,7 @@ const Form = () => {
               />
             </li>
             <li>
-              <label for='message'>Message</label>
+              <label htmlFor='message'>Message</label>
               <textarea
                 rows='6'
                 required

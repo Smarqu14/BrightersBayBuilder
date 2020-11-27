@@ -4,7 +4,10 @@ import ReactPlayer from 'react-player';
 const VideoPlayer = () => {
   return (
     <div className='video__player'>
-      <h1>This is how we work</h1>
+      <div className='section__title'>
+        <h1>Remodeling</h1>
+        <p>Timelapse of our last project</p>
+      </div>
       <ReactPlayer controls url='https://youtu.be/yzpcyGJ2wD0' />
     </div>
   );

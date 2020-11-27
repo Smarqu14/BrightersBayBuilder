@@ -40,12 +40,28 @@ main {
   box-pack: center;
   justify-content: center;
 }
+
 .slider__img {
   background: no-repeat center center fixed;
-  height: 84vh;
+  height: 100vh;
   width: 100%;
   z-index: -1;
   object-fit: cover;
+}
+
+.alice-carousel__dots {
+  position: absolute !important;
+  left: 50% !important;
+  top: 90% !important;
+  transform: translate(-50%, -50%) !important;
+}
+.alice-carousel__dots li {
+  height: 10px !important;
+  width: 10px !important;
+}
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  display: none !important;
 }
 
 .slider__text {
@@ -136,12 +152,18 @@ main {
 }
 
 /* HOME-SERVICES */
+.gallery__main-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(5, 5vw);
   grid-gap: 10px;
-  margin: 0 auto;
+  /* middle 
+ margin: 0 auto;
+  */
 }
 
 .gallery__img {
@@ -203,12 +225,14 @@ main {
   grid-row-start: 3;
   grid-row-end: 6;
 }
-
-/* HOMEPAGE- REVIEWS */
-.reviews__title {
+/* REUSUABLE CSS */
+.section__title {
   text-align: center;
+  margin-bottom: 40px;
+  padding-top: 75px;
 }
 
+/* HOMEPAGE- REVIEWS */
 .card-body-reviews {
   border: 1px solid #ffffff;
   height: 300px;
@@ -219,7 +243,7 @@ main {
 }
 
 .card-body-reviews:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
 
@@ -237,9 +261,6 @@ main {
   align-items: center;
   flex-direction: column;
   margin-bottom: 100px;
-}
-.video__player h1 {
-  padding-bottom: 15px;
 }
 
 /* FOOTER */
@@ -330,64 +351,78 @@ main {
 }
 
 /* CONTACT PAGE */
-.form__container {
+.contact__container {
   width: 80%;
   margin: 0 auto;
 }
+.contact__information {
+  text-align: center;
+}
+.contact__information p {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.contact__details {
+  background-color: red;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
 .form {
-  padding-top: 70px;
-  padding-bottom: 50px;
   margin: 75px;
 }
 
-.form__flex-outer {
+.form__outer {
   list-style-type: none;
   padding: 0;
   max-width: 800px;
   margin: 0 auto;
 }
 
-.form__flex-outer li {
+.form__outer li {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.form__flex-outer > li:not(:last-child) {
+.form__outer > li:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.form__flex-outer li label,
-.form__flex-outer li p {
+.form__outer li label,
+.form__outer li p {
   padding: 8px;
   font-weight: 300;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
 
-.form__flex-outer > li > label,
-.form__flex-outer li p {
+.form__outer > li > label,
+.form__outer li p {
   flex: 1 0 120px;
   max-width: 125px;
 }
 
-.form__flex-outer > li > label + * {
+.form__outer > li > label + * {
   flex: 1 0 230px;
 }
 
-.form__flex-outer li p {
+.form__outer li p {
   margin: 0;
 }
 
-.form__flex-outer li input,
-.form__flex-outer li textarea {
+.form__outer li input,
+.form__outer li textarea {
   padding: 15px;
   background-color: #e8e4e4;
   color: black;
   border: none;
 }
 
-.form__flex-outer li button {
+.form__outer li button {
   margin-left: auto;
   padding: 8px 16px;
   border: none;

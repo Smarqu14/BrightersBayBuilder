@@ -42,13 +42,8 @@ const Header = () => {
               </LinkContainer>
               <LinkContainer to='/contact'>
                 <Nav.Link>
-                  <i className='fas fa-address-card'></i>CONTACT
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/estimate'>
-                <Nav.Link>
                   <span className='btn-estimate'>
-                    <i className='fas fa-calculator'></i>ESTIMATE
+                    <i className='fas fa-address-card'></i>CONTACT US
                   </span>
                 </Nav.Link>
               </LinkContainer>
