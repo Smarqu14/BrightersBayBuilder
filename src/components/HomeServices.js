@@ -5,16 +5,10 @@ import { Container } from 'react-bootstrap';
 const HomeServices = ({ images }) => {
   const imgs = images.map((img, idx) => {
     return (
-      <div
-        className={`${img.class} 
-        gallery__listing`}
-        key={idx}
-      >
+      <div className={`${img.class} gallery__listing`} key={idx}>
         <Link to={`/projects`}>
           <p className='gallery__title'>{img.title}</p>
         </Link>
-        <p className='service__title'>{img.title}</p>
-
         <img src={img.src} alt={img.title} className='gallery__img' />
       </div>
     );

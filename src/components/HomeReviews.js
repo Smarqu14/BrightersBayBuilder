@@ -12,7 +12,7 @@ const HomeReviews = ({ images }) => {
           <p>Learn why customers choose Bright Bay Builders</p>
         </div>
 
-        <Container>
+        <Container className='my-auto'>
           <Row>
             {reviews.map((review, idx) => (
               <Col key={idx} sm={4} md={4} lg={4} xl={4}>
@@ -62,6 +62,16 @@ const HomeReviews = ({ images }) => {
                 </Card>
               </Col>
             ))}
+          </Row>
+          <Row className='justify-content-center '>
+            <Button
+              href='https://www.yelp.com/'
+              className='btn__reviews'
+              variant='outline-danger'
+              target='_blank'
+            >
+              READ ALL REVIEWS
+            </Button>{' '}
           </Row>
         </Container>
       </Container>

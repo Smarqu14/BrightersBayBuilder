@@ -46,9 +46,9 @@ const Header = () => {
               </LinkContainer>
               <LinkContainer to='/estimate'>
                 <Nav.Link>
-                  <button className='fas fa-calculator btn-estimate'>
-                    GET YOUR ESTIMATE
-                  </button>
+                  <span className='btn-estimate'>
+                    <i className='fas fa-calculator'></i>ESTIMATE
+                  </span>
                 </Nav.Link>
               </LinkContainer>
             </Nav>

@@ -3,6 +3,7 @@ import Slider from '../components/Slider';
 import HomeServices from '../components/HomeServices';
 import { images, sliderImages } from '../homepageData';
 import HomeReviews from '../components/HomeReviews';
+import VideoPlayer from '../components/VideoPlayer';
 
 const HomeScreen = () => {
   return (
@@ -10,6 +11,7 @@ const HomeScreen = () => {
       <Slider images={sliderImages} />
       <HomeServices images={images} />
       <HomeReviews images={images} />
+      <VideoPlayer />
     </div>
   );
 };
