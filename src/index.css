@@ -23,6 +23,11 @@ main {
   height: 70px;
   width: 250px;
 }
+
+.activeLink {
+  background-color: #149a60;
+}
+
 /* ------- SLIDER -------- */
 .slider__container {
   display: flex;

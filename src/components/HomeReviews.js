@@ -25,25 +25,25 @@ const HomeReviews = ({ images }) => {
                           style={{ color: 'red' }}
                           className={'fas fa-star'}
                         ></i>
-                      </span>{' '}
+                      </span>
                       <span>
                         <i
                           style={{ color: 'red' }}
                           className={'fas fa-star'}
                         ></i>
-                      </span>{' '}
+                      </span>
                       <span>
                         <i
                           style={{ color: 'red' }}
                           className={'fas fa-star'}
                         ></i>
-                      </span>{' '}
+                      </span>
                       <span>
                         <i
                           style={{ color: 'red' }}
                           className={'fas fa-star'}
                         ></i>
-                      </span>{' '}
+                      </span>
                       <span>
                         <i
                           style={{ color: 'red' }}
