@@ -6,11 +6,7 @@ import Rating from './Rating';
 const HomeReviews = ({ images }) => {
   return (
     <>
-      <Container
-        className='pb-5'
-        fluid
-        style={{ 'background-color': '#f4f4f4' }}
-      >
+      <Container className='pb-5' fluid style={{ backgroundColor: '#f4f4f4' }}>
         <div className='section__title'>
           <h1>Customers Reviews</h1>
           <p>Learn why customers choose Bright Bay Builders</p>
