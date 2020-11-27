@@ -1,10 +1,15 @@
 import React from 'react';
+import Jumbo from '../components/Jumbo';
 
 const ProjectScreen = () => {
+  const info = {
+    title: 'Projects',
+    subTitle: 'We can build anything for you.',
+  };
   return (
-    <div className='hello'>
-      <h1>HELLOO</h1>
-    </div>
+    <>
+      <Jumbo info={info} />;
+    </>
   );
 };
 

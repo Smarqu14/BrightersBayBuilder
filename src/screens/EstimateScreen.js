@@ -1,7 +1,16 @@
 import React from 'react';
+import Jumbo from '../components/Jumbo';
 
 const EstimateScreen = () => {
-  return <div>ESTIMATE SCREEN</div>;
+  const info = {
+    title: 'Estimate',
+    subTitle: 'Get your estimate in minutes',
+  };
+  return (
+    <>
+      <Jumbo info={info} />;
+    </>
+  );
 };
 
 export default EstimateScreen;

@@ -1,7 +1,16 @@
 import React from 'react';
+import Jumbo from '../components/Jumbo';
 
 const ServiceScreen = () => {
-  return <div>SERVICE SCREEN</div>;
+  const info = {
+    title: 'Services',
+    subTitle: 'Deisgn, Build, Remodel. That is our moto.',
+  };
+  return (
+    <>
+      <Jumbo info={info} />;
+    </>
+  );
 };
 
 export default ServiceScreen;

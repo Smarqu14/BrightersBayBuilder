@@ -277,6 +277,28 @@ main {
   margin-bottom: 5px;
 }
 
+/* ABOUT-PAGE */
+
+.jumbo__image {
+  background: url('https://bbb-construction.s3-us-west-1.amazonaws.com/8.jpeg')
+    no-repeat fixed bottom;
+  background-size: cover;
+  color: #efefef;
+  height: 200px;
+  position: relative;
+  z-index: -2;
+}
+.jumbo__overlay {
+  background-color: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
 /* @media screen and (max-width: 820px) {
   .service__title {
     font-size: 0.2rem;
@@ -317,6 +339,7 @@ main {
     grid-gap: 22.5px;
   }
 }
+
 
 @media screen and (max-width: 550px) {
   .gallery {
