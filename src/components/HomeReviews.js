@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Container, Button, Row, Col } from 'react-bootstrap';
-import { reviews } from '../homepageData';
+import { reviews } from '../data';
 import Rating from './Rating';
 
 const HomeReviews = ({ images }) => {

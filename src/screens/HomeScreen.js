@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from '../components/Slider';
 import HomeServices from '../components/HomeServices';
-import { images, sliderImages } from '../homepageData';
+import { images, sliderImages } from '../data';
 import HomeReviews from '../components/HomeReviews';
 import VideoPlayer from '../components/VideoPlayer';
 

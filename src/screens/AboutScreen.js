@@ -1,5 +1,6 @@
 import React from 'react';
 import Jumbo from '../components/Jumbo';
+import About from '../components/About';
 
 const AboutScreen = () => {
   const info = {
@@ -9,6 +10,7 @@ const AboutScreen = () => {
   return (
     <>
       <Jumbo info={info} />
+      <About />
     </>
   );
 };

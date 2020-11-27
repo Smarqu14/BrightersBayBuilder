@@ -21,7 +21,7 @@ main {
 
 #logo {
   height: 70px;
-  width: 250px;
+  width: 200px;
 }
 
 .activeLink {
@@ -232,6 +232,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 .video__player h1 {
   padding-bottom: 15px;
@@ -239,7 +240,6 @@ main {
 
 /* FOOTER */
 .footer {
-  margin-top: 100px;
   background-color: #2c3e50;
   color: white;
 }
@@ -277,8 +277,7 @@ main {
   margin-bottom: 5px;
 }
 
-/* ABOUT-PAGE */
-
+/* JUMBO COMPONENT */
 .jumbo__image {
   background: url('https://bbb-construction.s3-us-west-1.amazonaws.com/8.jpeg')
     no-repeat fixed bottom;
@@ -297,6 +296,33 @@ main {
   bottom: 0;
   right: 0;
   z-index: -1;
+}
+
+/* ABOUT-PAGE */
+.about__image {
+  height: 420px;
+  width: 100%;
+  border-radius: 5px;
+}
+.about__story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about__story-text {
+  width: 75%;
+}
+.about__story-text h4 {
+  font-weight: 700;
+  line-height: 1.4;
+  width: 100%;
+}
+.about__story-text p {
+  padding-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  border-bottom: 1px solid black;
 }
 
 /* @media screen and (max-width: 820px) {
