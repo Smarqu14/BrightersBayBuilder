@@ -7,12 +7,12 @@ const About = () => {
     <>
       <Container fluid>
         <Row>
-          <Col xl={6} lg={6} md={6}>
-            <Image
-              src={aboutData[0].src}
-              alt={aboutData[0].alt}
-              className='about__image'
-            />
+          <Col>
+            <Container>
+              <div className='about__image'>
+                <Image src={aboutData[0].src} alt={aboutData[0].alt} />
+              </div>
+            </Container>
           </Col>
           <Col>
             <Container className='about__story'>

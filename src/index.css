@@ -318,17 +318,17 @@ main {
 }
 
 /* ABOUT-PAGE */
-/* .about__image {
+.about__image {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
   margin-top: 10px;
   margin-bottom: 50px;
-} */
-.about__image {
+}
+.about__image img {
   width: 100%;
-  height: 95%;
+  height: 100%;
 }
 
 .about__story {
