@@ -1,18 +1,18 @@
 import React from 'react';
 import { aboutData } from '../../data';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Image, Row, Col } from 'react-bootstrap';
 
 const About = () => {
   return (
     <>
-      <Container fluid className='mb-5'>
+      <Container fluid>
         <Row>
-          <Col>
-            <Container>
-              <div className='about__image'>
-                <img src={aboutData[0].src} alt={aboutData[0].alt} />
-              </div>
-            </Container>
+          <Col xl={6} lg={6} md={6}>
+            <Image
+              src={aboutData[0].src}
+              alt={aboutData[0].alt}
+              className='about__image'
+            />
           </Col>
           <Col>
             <Container className='about__story'>
