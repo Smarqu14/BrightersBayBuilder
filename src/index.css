@@ -221,17 +221,23 @@ main {
   grid-row-start: 3;
   grid-row-end: 6;
 }
+
 /* REUSUABLE CSS */
 .section__title {
   text-align: center;
   margin-bottom: 50px;
-
   padding-top: 90px;
 }
-
 .logo {
-  height: 70px;
+  height: 50px;
   width: 200px;
+}
+
+.contact__details-info ul {
+  list-style-type: none;
+}
+.contact__details-info li {
+  padding-top: 5px;
 }
 
 /* HOMEPAGE- REVIEWS */
@@ -272,38 +278,24 @@ main {
 }
 .footer__social-info {
   display: flex;
-  justify-content: column;
+  justify-content: flex-end;
   align-items: center;
-  flex-direction: column;
+  margin-top: 40px;
 }
-.footer__social-icons {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.5rem;
-  align-items: center;
+.footer__social-info span {
+  font-size: 2rem;
+  padding: 10px;
 }
+
 .footer__social-icons span {
   padding: 10px;
-  align-items: flex-end;
-}
-.footer__address {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
 }
 
-.footer__address i {
-  font-size: 1.3rem;
-  padding-right: 10px;
-  margin-top: 5px;
+.designed {
+  text-align: center;
+  margin-left: 120px;
+  color: #a0a0a0;
 }
-.footer__address span {
-  font-size: 1rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 /* JUMBO COMPONENT */
 .jumbo__image {
   background: url('https://bbb-construction.s3-us-west-1.amazonaws.com/8.jpeg')
@@ -348,7 +340,7 @@ main {
   align-items: center;
 }
 .about__story-text {
-  width: 75%;
+  width: 100%;
 }
 .about__story-text h4 {
   font-weight: 700;
@@ -357,7 +349,7 @@ main {
 }
 .about__story-text p {
   padding-top: 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   border-bottom: 1px solid black;
 }
@@ -389,12 +381,7 @@ main {
   border: 1px solid #9a9aa236;
   margin-bottom: 70px;
 }
-.contact__details-info ul {
-  list-style-type: none;
-}
-.contact__details-info li {
-  padding-top: 10px;
-}
+
 .contact_logo {
   margin: 20px;
 }

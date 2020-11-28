@@ -1,5 +1,5 @@
 import React from 'react';
-import Jumbo from '../components/Jumbo';
+import Jumbo from '../components/reusable/Jumbo';
 
 const ServiceScreen = () => {
   const info = {
