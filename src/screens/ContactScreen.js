@@ -1,6 +1,6 @@
 import React from 'react';
 import Jumbo from '../components/Jumbo';
-import Form from '../components/Form';
+import Form from '../components/contactpage/Form';
 
 const ContactScreen = () => {
   const info = {

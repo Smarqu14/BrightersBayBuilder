@@ -1,9 +1,9 @@
 import React from 'react';
-import Slider from '../components/Slider';
-import HomeServices from '../components/HomeServices';
+import Slider from '../components/homepage/Slider';
+import HomeServices from '../components/homepage/HomeServices';
 import { images, sliderImages } from '../data';
-import HomeReviews from '../components/HomeReviews';
-import VideoPlayer from '../components/VideoPlayer';
+import HomeReviews from '../components/homepage/HomeReviews';
+import VideoPlayer from '../components/homepage/VideoPlayer';
 
 const HomeScreen = () => {
   return (

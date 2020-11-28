@@ -1,5 +1,5 @@
 import React from 'react';
-import { aboutData } from '../data';
+import { aboutData } from '../../data';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const About = () => {
@@ -9,11 +9,9 @@ const About = () => {
         <Row>
           <Col>
             <Container>
-              <img
-                className='about__image'
-                src={aboutData[0].imgSrc}
-                alt={aboutData[0].slogan}
-              />
+              <div className='about__image'>
+                <img src={aboutData[0].imgSrc} alt={aboutData[0].slogan} />
+              </div>
             </Container>
           </Col>
           <Col>

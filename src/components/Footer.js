@@ -3,15 +3,16 @@ import { Container, Row, Col } from 'react-bootstrap';
 import hoozz from '../houzz.png';
 import buildzoom from '../buildzoom.png';
 import angieslist from '../angieslist.png';
+
 const Footer = () => {
   return (
     <footer className='footer'>
       <Container>
         <Row>
           <Col className='text-center py-3'>
-            <img src={hoozz} id='logo' alt='houzz logo' />
-            <img src={buildzoom} id='logo' alt='buildzoom logo' />
-            <img src={angieslist} id='logo' alt='buildzoom logo' />
+            <img src={hoozz} className='logo' alt='houzz logo' />
+            <img src={buildzoom} className='logo' alt='buildzoom logo' />
+            <img src={angieslist} className='logo' alt='buildzoom logo' />
           </Col>
           <Col className='py-4'>
             <div className='footer__address'>

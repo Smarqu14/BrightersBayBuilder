@@ -1,6 +1,6 @@
 import React from 'react';
 import Jumbo from '../components/Jumbo';
-import About from '../components/About';
+import About from '../components/aboutpage/About';
 
 const AboutScreen = () => {
   const info = {
