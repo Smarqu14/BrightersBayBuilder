@@ -5,7 +5,7 @@ import { Container, Image, Row, Col } from 'react-bootstrap';
 const About = () => {
   return (
     <>
-      <Container fluid>
+      <Container fluid className='mt-5'>
         <Row>
           <Col>
             <Container>
