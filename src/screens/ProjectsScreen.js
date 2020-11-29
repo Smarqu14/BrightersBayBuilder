@@ -13,10 +13,10 @@ const ProjectsScreen = () => {
   return (
     <>
       <Jumbo info={info} />
-      <Container>
+      <Container fluid>
         <Row>
-          {projects.map((project) => (
-            <Col key={project._id} sm={12} md={6} xl={6}>
+          {projects.map((project, idx) => (
+            <Col key={project._id} sm={12} md={6} xl={6} className='p-5'>
               <Project project={project} />
             </Col>
           ))}

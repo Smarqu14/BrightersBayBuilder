@@ -9,10 +9,9 @@ import {
   Button,
   Container,
 } from 'react-bootstrap';
-import Project from '../components/projectspage/Project';
 import { projects } from '../data';
 
-const ProjectScreen = ({ match }) => {
+const ProjectDetailScreen = ({ match }) => {
   // this gets the id on the url
   const project = projects.find((project) => project._id === match.params.id);
 
@@ -20,15 +19,14 @@ const ProjectScreen = ({ match }) => {
     <>
       <Container>
         <h2>Hello world</h2>
-
-        <Link className='btn btn-light my-5' to='/'>
+        <Link className='btn btn-light my-5' to='/projects'>
           Go Back
         </Link>
-        <h2>{project.name}</h2>
-        <Image src={project.image} fluid />
+        {/* <h2>{project.name}</h2>
+        <Image src={project.image} fluid /> */}
       </Container>
     </>
   );
 };
 
-export default ProjectScreen;
+export default ProjectDetailScreen;

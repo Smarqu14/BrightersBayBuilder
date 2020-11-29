@@ -120,7 +120,7 @@ export const projects = [
   {
     _id: '3',
     name: 'Skirt',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/7.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -133,7 +133,7 @@ export const projects = [
   {
     _id: '4',
     name: 'Tusi',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/7.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -146,7 +146,7 @@ export const projects = [
   {
     _id: '5',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -159,7 +159,7 @@ export const projects = [
   {
     _id: '6',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -172,7 +172,7 @@ export const projects = [
   {
     _id: '7',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -185,7 +185,7 @@ export const projects = [
   {
     _id: '8',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -198,7 +198,7 @@ export const projects = [
   {
     _id: '9',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -224,7 +224,7 @@ export const projects = [
   {
     _id: '11',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/7.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -237,7 +237,7 @@ export const projects = [
   {
     _id: '12',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/8.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -250,7 +250,7 @@ export const projects = [
   {
     _id: '13',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/9.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -263,7 +263,7 @@ export const projects = [
   {
     _id: '14',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/10.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -276,7 +276,7 @@ export const projects = [
   {
     _id: '15',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/11.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -289,7 +289,7 @@ export const projects = [
   {
     _id: '16',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -302,7 +302,7 @@ export const projects = [
   {
     _id: '17',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -315,7 +315,7 @@ export const projects = [
   {
     _id: '18',
     name: 'Juancha',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/14.jpeg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',

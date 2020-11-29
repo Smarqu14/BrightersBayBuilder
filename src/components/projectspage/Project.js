@@ -1,18 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import Rating from './Rating';
 
 const Project = ({ project }) => {
   return (
-    <Card className='my-3 p-3 rounded justify-content-center'>
+    <Card className='hover-effect'>
       <Link to={`/projects/${project._id}`}>
-        <Card.Img src={project.image} variant='top' />
+        <Card.Img src={project.image} />
       </Link>
-
       <Card.Body>
         <Link to={`/projects/${project._id}`}>
-          <Card.Title as='div'>
+          <Card.Title as='h4'>
             <strong>{project.name}</strong>
           </Card.Title>
         </Link>
