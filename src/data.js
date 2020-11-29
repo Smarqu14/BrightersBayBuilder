@@ -189,32 +189,5 @@ export const projects = [
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
   },
-  {
-    _id: '15',
-    name: 'Pacific Heights Residence',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/14.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
-  },
-  {
-    _id: '16',
-    name: 'Diamond Heights Residence',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
-  },
-  {
-    _id: '17',
-    name: 'Bernal Heights Residence',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
-  },
-  {
-    _id: '18',
-    name: 'Nob Hill Residence',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
-  },
+  
 ];
