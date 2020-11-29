@@ -18,12 +18,18 @@ const ProjectDetailScreen = ({ match }) => {
   return (
     <>
       <Container>
-        <h2>Hello world</h2>
         <Link className='btn btn-light my-5' to='/projects'>
           Go Back
         </Link>
-        {/* <h2>{project.name}</h2>
-        <Image src={project.image} fluid /> */}
+        <Row fluid>
+          <Col>
+            <h2>Hello world</h2>
+          </Col>
+          <Col>
+            <h2>{project.name}</h2>
+            <Image src={project.image} fluid />
+          </Col>
+        </Row>
       </Container>
     </>
   );
