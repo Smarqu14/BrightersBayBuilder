@@ -5,16 +5,14 @@ import { Link } from 'react-router-dom';
 const Project = ({ project }) => {
   return (
     <Card className='hover-effect'>
-      <Link to={`/projects/${project._id}`}>
-        <Card.Img src={project.image} />
-      </Link>
-      <Card.Body>
-        <Link to={`/projects/${project._id}`}>
-          <Card.Title as='h4'>
+      <Link to={`/projects/${project._id}`} style={{ textDecoration: 'none' }}>
+        <Card.Img src={project.image} className='img-card' />
+        <Card.Body>
+          <Card.Title as='h5'>
             <strong>{project.name}</strong>
           </Card.Title>
-        </Link>
-      </Card.Body>
+        </Card.Body>
+      </Link>
     </Card>
   );
 };

@@ -447,17 +447,19 @@ main {
 }
 
 /* PROJECTSPAGE */
-/* .project__container { */
-/* border: 1px solid black; */
-/* } */
-
 .hover-effect {
+  opacity: 0.8;
   transition: all 0.5s ease-in-out;
 }
+
 .hover-effect:hover {
   transform: scale(1.03);
   transition: all 0.5s ease-in-out;
   box-shadow: 5px 5px 10px #b3a8a8, -5px -5px 10px #f2e4e4;
+  opacity: 1;
 }
-
-/* TEST */
+.img-card {
+  max-height: 200px;
+  min-height: 150px;
+  object-fit: cover;
+}
