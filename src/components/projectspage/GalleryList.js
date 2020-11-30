@@ -1,22 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ModalImages from './ModalImages';
+import GalleryItem from './GalleryItem';
+
+import { Button, Modal } from 'react-bootstrap';
+
 import { Row, Col, Image } from 'react-bootstrap';
 
 const GalleryList = ({ project }) => {
+  const [modal, setModal] = useState(false);
+
+  const showModal = () => {
+    setModal(!modal);
+  };
+
   return (
     <>
-      <h2>{project.name}</h2>
-      <Image src={project.image} className='img-card' />
-      <Row className='py-5'>
-        <Col className='hover-effect mx-3'>
+      {modal ? (
+        <ModalImages modal={modal} setModal={setModal} project={project} />
+      ) : (
+        <>
+          {' '}
+          <h2>{project.name}</h2>
           <Image src={project.image} className='img-card' />
-        </Col>
-        <Col className='hover-effect mx-3'>
-          <Image src={project.image} className='img-card' />
-        </Col>
-        <Col className='hover-effect mx-3'>
-          <Image src={project.image} className='img-card' />
-        </Col>
-      </Row>
+          <GalleryItem project={project} showModal={showModal} />{' '}
+        </>
+      )}
     </>
   );
 };

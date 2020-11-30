@@ -19,7 +19,9 @@ const IndexList = ({ projects }) => {
       <Tab.Container>
         <Row>
           <Col sm={12}>
-            <ListGroup className='testing'>{listGroupItem}</ListGroup>
+            <ListGroup className='testing' variant='flush'>
+              {listGroupItem}
+            </ListGroup>
           </Col>
         </Row>
       </Tab.Container>

@@ -356,7 +356,7 @@ main {
 /* CONTACT PAGE */
 .contact__container {
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .contact__information {
   text-align: center;
@@ -469,4 +469,24 @@ main {
 
 .testing {
   width: 100%;
+}
+
+/* --------- */
+/* Modal */
+
+.modal-screen-bg {
+  background-color: #f2f2f2;
+}
+
+.modal-screen-body {
+  height: 50%;
+  width: 100%;
+}
+
+.modal-screen-image {
+  background: no-repeat center center fixed;
+  height: 90vh;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
 }

@@ -95,99 +95,168 @@ export const projects = [
     _id: '1',
     name: 'Chinatown Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '2',
     name: "Fisherman's Wharf Residence",
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '3',
     name: 'Mission District Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '4',
     name: 'Noe Valley Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '5',
     name: 'Embarcadero Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '6',
     name: 'The Castro Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '7',
     name: 'North Beach Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/7.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/7.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '8',
     name: 'Sunset District Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/8.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/8.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '9',
     name: 'Tenderloin Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/9.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/9.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
   },
   {
     _id: '10',
     name: 'Presidio Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/10.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/10.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
+    ],
   },
   {
     _id: '11',
     name: 'Treasure Island Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/11.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/11.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
+    ],
   },
   {
     _id: '12',
     name: 'Japantown Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
+    ],
   },
   {
     _id: '13',
     name: 'Sunset Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
+    ],
   },
   {
     _id: '14',
     name: 'Height-Ashbury Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
-    description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
+    ],
   },
-  
 ];
