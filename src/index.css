@@ -7,24 +7,32 @@ main {
 }
 
 .fas {
-  padding-right: 1px;
+  padding-right: 5px;
 }
 /* ------- NAVBAR -------- */
+a {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+a:hover {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
 .btn-estimate {
+  letter-spacing: 0.1em;
   padding: 10px 30px;
-  background: #149a80;
+  background-color: #1e2b37;
   border: none;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
   border-radius: 3px;
+  transition: all 0.3s ease-in-out;
 }
 .btn-estimate:hover {
-  background: #149a60;
-}
-
-.activeLink {
-  background-color: #149a60;
+  background-color: #149a80;
+  color: #1e2b37;
+  transition: all 0.3s ease-in-out;
 }
 
 /* ------- SLIDER -------- */
@@ -96,7 +104,7 @@ main {
 /*btn_background*/
 .slider__btn-effect {
   color: #fff;
-  padding-top: 7px;
+  padding-top: 2px;
   border: 4px solid transparent;
   background-color: #1e2b37;
   overflow: hidden;

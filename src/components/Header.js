@@ -55,4 +55,9 @@ const Header = () => {
   );
 };
 
+{
+  /* <Link to='/projects'>
+  <button className='slider__btn slider__btn-effect'>View Projects</button>
+</Link>; */
+}
 export default Header;
