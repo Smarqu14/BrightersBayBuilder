@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ModalImages from './ModalImages';
+import ModalComponent from './ModalComponent';
 import GalleryItem from './GalleryItem';
 
 import { Button, Modal } from 'react-bootstrap';
@@ -16,7 +16,7 @@ const GalleryList = ({ project }) => {
   return (
     <>
       {modal ? (
-        <ModalImages modal={modal} setModal={setModal} project={project} />
+        <ModalComponent modal={modal} setModal={setModal} project={project} />
       ) : (
         <>
           {' '}

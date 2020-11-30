@@ -474,18 +474,13 @@ main {
 /* --------- */
 /* Modal */
 
-.modal-screen-bg {
-  background-color: #f2f2f2;
+.modal__container {
+  max-width: 900px;
 }
 
-.modal-screen-body {
-  height: 50%;
-  width: 100%;
-}
-
-.modal-screen-image {
+.modal__image {
   background: no-repeat center center fixed;
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   z-index: -1;
   object-fit: cover;
