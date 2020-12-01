@@ -3,12 +3,12 @@ import { Tab, Row, Col, ListGroup } from 'react-bootstrap';
 
 import { LinkContainer } from 'react-router-bootstrap';
 // defaultActiveKey={}
-const IndexList = ({ projects }) => {
-  const listGroupItem = projects.map((project) => {
+const IndexList = ({ data }) => {
+  const listGroupItem = data.map((item) => {
     return (
-      <LinkContainer to={project._id} key={project._id}>
-        <ListGroup.Item action href={`/${project._id}`}>
-          {project.name}
+      <LinkContainer to={item._id} key={item._id}>
+        <ListGroup.Item action href={`/${item._id}`}>
+          {item.name}
         </ListGroup.Item>
       </LinkContainer>
     );
@@ -19,9 +19,7 @@ const IndexList = ({ projects }) => {
       <Tab.Container>
         <Row>
           <Col sm={12}>
-            <ListGroup className='testing' variant='flush'>
-              {listGroupItem}
-            </ListGroup>
+            <ListGroup variant='flush'>{listGroupItem}</ListGroup>
           </Col>
         </Row>
       </Tab.Container>

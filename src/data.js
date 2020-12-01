@@ -92,7 +92,7 @@ export const aboutData = [
 
 export const projects = [
   {
-    _id: '1',
+    _id: 'chinatown-residence',
     name: 'Chinatown Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
     imagesList: [
@@ -104,7 +104,7 @@ export const projects = [
     ],
   },
   {
-    _id: '2',
+    _id: 'fisherman-residence',
     name: "Fisherman's Wharf Residence",
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
     imagesList: [
@@ -116,7 +116,7 @@ export const projects = [
     ],
   },
   {
-    _id: '3',
+    _id: 'mission-residence',
     name: 'Mission District Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
     imagesList: [
@@ -128,11 +128,11 @@ export const projects = [
     ],
   },
   {
-    _id: '4',
+    _id: 'noe-residence',
     name: 'Noe Valley Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
     imagesList: [
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg', 
       'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
@@ -140,7 +140,7 @@ export const projects = [
     ],
   },
   {
-    _id: '5',
+    _id: 'embarcadero-residence',
     name: 'Embarcadero Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
     imagesList: [
@@ -152,7 +152,7 @@ export const projects = [
     ],
   },
   {
-    _id: '6',
+    _id: 'castro-residence',
     name: 'The Castro Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
     imagesList: [
@@ -164,7 +164,7 @@ export const projects = [
     ],
   },
   {
-    _id: '7',
+    _id: 'northbeach-residence',
     name: 'North Beach Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/7.jpeg',
     imagesList: [
@@ -176,7 +176,7 @@ export const projects = [
     ],
   },
   {
-    _id: '8',
+    _id: 'sunset-residence',
     name: 'Sunset District Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/8.jpeg',
     imagesList: [
@@ -188,7 +188,7 @@ export const projects = [
     ],
   },
   {
-    _id: '9',
+    _id: 'tenderloin-residence',
     name: 'Tenderloin Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/9.jpeg',
     imagesList: [
@@ -200,7 +200,7 @@ export const projects = [
     ],
   },
   {
-    _id: '10',
+    _id: 'presidio-residence',
     name: 'Presidio Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/10.jpeg',
     imagesList: [
@@ -212,7 +212,7 @@ export const projects = [
     ],
   },
   {
-    _id: '11',
+    _id: 'treasure-residence',
     name: 'Treasure Island Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/11.jpeg',
     imagesList: [
@@ -224,7 +224,7 @@ export const projects = [
     ],
   },
   {
-    _id: '12',
+    _id: 'japantown-residence',
     name: 'Japantown Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
     imagesList: [
@@ -236,19 +236,7 @@ export const projects = [
     ],
   },
   {
-    _id: '13',
-    name: 'Sunset Residence',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
-    imagesList: [
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
-    ],
-  },
-  {
-    _id: '14',
+    _id: 'height-residence',
     name: 'Height-Ashbury Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
     imagesList: [
@@ -257,6 +245,45 @@ export const projects = [
       'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/12.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
+    ],
+  },
+];
+
+export const services = [
+  {
+    _id: 'appartment-renovation',
+    name: 'Fully Apartment Renovation',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/1.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
+  },
+  {
+    _id: 'bathroom-remodeling',
+    name: 'Bathroom Remodeling',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
+  },
+  {
+    _id: 'kitchen-remodeling',
+    name: 'Kitchen Remodeling',
+    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+    imagesList: [
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
     ],
   },
 ];

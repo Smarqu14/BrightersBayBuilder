@@ -84,15 +84,6 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href='https://www.gmail.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i className={'fas fa-envelope'}></i>
-                </a>
-              </span>
-              <span>
-                <a
                   href='https://www.twitter.com/'
                   target='_blank'
                   rel='noreferrer'

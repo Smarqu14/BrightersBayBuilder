@@ -6,30 +6,19 @@ main {
   min-height: 80vh;
 }
 
-.fas {
-  padding-right: 5px;
-}
 /* ------- NAVBAR -------- */
-a {
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-}
-a:hover {
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-}
-.btn-estimate {
+
+.btn-contact {
   letter-spacing: 0.1em;
-  padding: 10px 30px;
+  padding: 10px 20px;
   background-color: #1e2b37;
   border: none;
   color: #ffffff;
   text-align: center;
-  text-decoration: none;
-  border-radius: 3px;
+
   transition: all 0.3s ease-in-out;
 }
-.btn-estimate:hover {
+.btn-contact:hover {
   background-color: #149a80;
   color: #1e2b37;
   transition: all 0.3s ease-in-out;
@@ -238,7 +227,6 @@ a:hover {
 }
 .logo {
   height: 50px;
-  width: 200px;
 }
 
 .contact__details-info ul {
@@ -248,6 +236,20 @@ a:hover {
   padding-top: 5px;
 }
 
+a {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+a:hover {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+.fas {
+  padding-right: 5px;
+}
+.fab {
+  transition: all 0.3s ease-in-out;
+}
 /* HOMEPAGE- REVIEWS */
 .card-body-reviews {
   border: 1px solid #ffffff;
@@ -295,14 +297,59 @@ a:hover {
   padding: 10px;
 }
 
-.footer__social-icons span {
-  padding: 10px;
-}
-
 .designed {
   text-align: center;
   margin-left: 120px;
   color: #a0a0a0;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+  transition: all 0.5s ease-in-out;
+}
+.fa-yelp {
+  color: #c41200;
+  transition: all 0.5s ease-in-out;
+}
+.fa-instagram {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #f22),
+    color-stop(0.15, #f2f),
+    color-stop(0.3, #22f),
+    color-stop(0.45, #2ff),
+    color-stop(0.6, #2f2),
+    color-stop(0.75, #2f2),
+    color-stop(0.9, #ff2),
+    color-stop(1, #f22)
+  );
+  background-image: gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #f22),
+    color-stop(0.15, #f2f),
+    color-stop(0.3, #22f),
+    color-stop(0.45, #2ff),
+    color-stop(0.6, #2f2),
+    color-stop(0.75, #2f2),
+    color-stop(0.9, #ff2),
+    color-stop(1, #f22)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: all 0.5s ease-in-out;
+}
+.fa-youtube {
+  transition: all 0.5s ease-in-out;
+  color: #ff0000;
+}
+.fa-twitter {
+  transition: all 0.5s ease-in-out;
+  color: #1da1f2;
 }
 /* JUMBO COMPONENT */
 .jumbo__image {
@@ -322,6 +369,7 @@ a:hover {
   top: 0;
   left: 0;
   bottom: 0;
+  vertical-align: middle;
   right: 0;
   z-index: -1;
 }
@@ -475,10 +523,6 @@ a:hover {
   object-fit: cover;
 }
 
-.testing {
-  width: 100%;
-}
-
 /* --------- */
 /* Modal */
 
@@ -491,5 +535,14 @@ a:hover {
   height: 80vh;
   width: 100%;
   z-index: -1;
+  object-fit: cover;
+}
+
+/* SERVICESPAGE */
+
+.img-circle {
+  max-height: 300px;
+  width: 80%;
+  min-height: 250px;
   object-fit: cover;
 }

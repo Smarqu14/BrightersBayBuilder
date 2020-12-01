@@ -1,7 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomeScreen from './screens/HomeScreen';
@@ -11,6 +15,8 @@ import ProjectDetailScreen from './screens/ProjectDetailScreen';
 import ServiceScreen from './screens/ServiceScreen';
 import ContactScreen from './screens/ContactScreen';
 import EstimateScreen from './screens/EstimateScreen';
+import ServiceDetailScreen from './screens/ServiceDetailScreen';
+import NoMatch from './components/NoMatch';
 
 function App() {
   return (
@@ -23,9 +29,10 @@ function App() {
             <Route path='/about' component={AboutScreen} />
             <Route path='/projects' exact component={ProjectsScreen} />
             <Route path='/projects/:id' component={ProjectDetailScreen} />
-            <Route path='/services' component={ServiceScreen} />
+            <Route path='/services' exact component={ServiceScreen} />
+            <Route path='/services/:id' component={ServiceDetailScreen} />
             <Route path='/contact' component={ContactScreen} />
-            <Route path='/estimate' component={EstimateScreen} />
+            <Route component={NoMatch} />
           </Switch>
         </Container>
       </main>

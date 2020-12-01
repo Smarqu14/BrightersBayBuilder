@@ -8,7 +8,7 @@ const Project = ({ project }) => {
       <Link to={`/projects/${project._id}`} style={{ textDecoration: 'none' }}>
         <Card.Img src={project.image} className='img-card' />
         <Card.Body>
-          <Card.Title as='h5'>
+          <Card.Title as='h5' style={{ color: '#149a80' }}>
             <strong>{project.name}</strong>
           </Card.Title>
         </Card.Body>

@@ -6,9 +6,8 @@ const Jumbo = ({ info, match }) => {
     <>
       <Jumbotron fluid className='jumbo__image'>
         <div className='jumbo__overlay' />
-        <Container>
+        <Container className='py-5'>
           <h1>{info.title}</h1>
-          <p>{info.subTitle}</p>
         </Container>
       </Jumbotron>
     </>

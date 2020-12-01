@@ -1,8 +1,7 @@
 import React from 'react';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
-import { NavLink } from 'react-router-dom';
-
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import logo from '../bbb-logo.png';
 const Header = () => {
   return (
     <header>
@@ -14,39 +13,41 @@ const Header = () => {
         fixed='top'
       >
         <Container>
-          <LinkContainer to='/'>
-            <Navbar.Brand>BRIGHT BAY BUILDERS</Navbar.Brand>
-          </LinkContainer>
+          <Navbar.Brand as={Link} to='/'>
+            <img src={logo} className='logo' alt='brighter bay builder logo' />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
-              <LinkContainer to='/'>
-                <Nav.Link>
-                  <i className='fas fa-home'></i>HOME
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/about'>
-                <Nav.Link>
-                  <i className='fas fa-users'></i>ABOUT US
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/projects'>
-                <Nav.Link>
-                  <i className='fas fa-hammer'></i>PROJECTS
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/services'>
-                <Nav.Link>
-                  <i className='fas fa-paint-roller'></i>SERVICES
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/contact'>
-                <Nav.Link>
-                  <span className='btn-estimate'>
-                    <i className='fas fa-address-card'></i>CONTACT US
-                  </span>
-                </Nav.Link>
-              </LinkContainer>
+              <Nav.Link as={Link} to='/'>
+                <span>
+                  <i className='fas fa-home'></i>
+                  HOME
+                </span>
+              </Nav.Link>
+              <Nav.Link as={Link} to='/about'>
+                <span>
+                  <i className='fas fa-users'></i>
+                  ABOUT US
+                </span>
+              </Nav.Link>
+              <Nav.Link as={Link} to='/projects'>
+                <span>
+                  <i className='fas fa-hammer'></i>
+                  PROJECTS
+                </span>
+              </Nav.Link>
+              <Nav.Link as={Link} to='/services'>
+                <span>
+                  <i className='fas fa-paint-roller'></i>
+                  SERVICES
+                </span>
+              </Nav.Link>
+              <Nav.Link as={Link} to='/contact'>
+                <span className='btn-contact'>
+                  <i className='fas fa-address-card'></i>CONTACT US
+                </span>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -55,9 +56,4 @@ const Header = () => {
   );
 };
 
-{
-  /* <Link to='/projects'>
-  <button className='slider__btn slider__btn-effect'>View Projects</button>
-</Link>; */
-}
 export default Header;
