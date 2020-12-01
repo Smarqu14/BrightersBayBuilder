@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import IndexList from '../components/projectspage/IndexList';
+import IndexList from '../components/reusable/IndexList';
+import ServicesInformation from '../components/servicespage/ServicesInformation';
 import { services } from '../data';
 import NoMatch from '../components/NoMatch';
 
@@ -23,8 +24,7 @@ const ServiceDetailScreen = ({ match }) => {
             <IndexList data={services} />
           </Col>
           <Col>
-            {/* <GalleryList project={project} /> */}
-            hello
+            <ServicesInformation service={service} />
           </Col>
         </Row>
       </Container>

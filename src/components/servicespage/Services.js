@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 import ServiceItem from './ServiceItem';
 
 const Services = ({ services }) => {

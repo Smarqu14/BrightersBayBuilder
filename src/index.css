@@ -441,68 +441,6 @@ a:hover {
   margin: 20px;
 }
 
-.form {
-  margin: 75px;
-}
-
-.form__outer {
-  list-style-type: none;
-  padding: 0;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.form__outer li {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.form__outer > li:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.form__outer li label,
-.form__outer li p {
-  padding: 8px;
-  font-weight: 300;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-
-.form__outer > li > label,
-.form__outer li p {
-  flex: 1 0 120px;
-  max-width: 125px;
-}
-
-.form__outer > li > label + * {
-  flex: 1 0 230px;
-}
-
-.form__outer li p {
-  margin: 0;
-}
-
-.form__outer li input,
-.form__outer li textarea {
-  padding: 15px;
-  background-color: #e8e4e4;
-  color: black;
-  border: none;
-}
-
-.form__outer li button {
-  margin-left: auto;
-  padding: 8px 16px;
-  border: none;
-  background: #333;
-  color: #f2f2f2;
-  text-transform: uppercase;
-  letter-spacing: 0.09em;
-  border-radius: 2px;
-}
-
 /* PROJECTSPAGE */
 .hover-effect {
   opacity: 0.8;

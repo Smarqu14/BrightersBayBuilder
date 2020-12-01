@@ -132,7 +132,7 @@ export const projects = [
     name: 'Noe Valley Residence',
     image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
     imagesList: [
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg', 
+      'https://bbb-construction.s3-us-west-1.amazonaws.com/4.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
@@ -261,6 +261,17 @@ export const services = [
       'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
     ],
+    information:
+      'With 10 years of experience handling full apartment renovation projects, Brighter Bay Builders has earned a reputation for delivering high quality results according to the specific needs of our customers. Our team is highly qualified, and we are able to proactively anticipate and overcome challenges with each project. Working with Brighter Bay Bruilders, we help significantly eliminate the stress that comes with large projects, and make sure we achieve the desired results. We are proud of the work we do, and never take the smallest details for granted. Complete customer satisfaction is our highest priority!',
+    informationList: [
+      'We let our 5 star rating, and reviews speak for us',
+      'Free and highly accurate estimate',
+      'Known for superior detailed work, with top artisan workmanship',
+      'Highly versatile builders that can handle any type of architecture and interior design styles',
+      'Proven to deliver on client’s visions',
+      'Full service, including dedicated project management team',
+      'No stress! We expertly navigate regulations in and around high-rise buildings',
+    ],
   },
   {
     _id: 'bathroom-remodeling',
@@ -273,6 +284,17 @@ export const services = [
       'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
     ],
+    information:
+      "Whether you are looking to upgrade elements of an existing bathroom, or completely revamp an entire bathroom layout and design, we have the team that can bring your vision to reality. We handle bathroom projects from start to finish for apartments, brownstones, and town-homes across Manhattan. Brighter Bay Builder's expert builders can handle even the most detailed work, and our craftsmanship is second to none. You’ll be proud to show off your luxurious bathroom! We are proud of the work we do, and never take the smallest details for granted. Complete customer satisfaction is our highest priority.",
+    informationList: [
+      'We let our 5 star rating, and reviews speak for us',
+      'Free and highly accurate estimate',
+      'Known for superior detailed work, with top artisan workmanship',
+      'Highly versatile Bathroom builders',
+      'Proven to deliver on client’s visions',
+      'Full service, including dedicated project management team',
+      'No stress! We expertly navigate regulations in and around high-rise buildings',
+    ],
   },
   {
     _id: 'kitchen-remodeling',
@@ -284,6 +306,16 @@ export const services = [
       'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/2.jpeg',
       'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    ],
+    information:
+      'We know that a kitchen can be as much of a work of art, as it is a functional place to cook, eat, or entertain. What differentiates Brighter Bay Builders is its ability to deliver a complete kitchen remodeling vision, while consistently ensuring the small but artful details are not overlooked.We can handle kitchen projects from start to finish for apartments, brownstones, and town-homes across the Bay Area. Our highly qualified team takes pride in every cabinet, tile, countertop, sink, faucet, appliance, and light figure – our craftsmanship is highly regarded.',
+    informationList: [
+      'We let our 5 star rating, and reviews speak for us',
+      'Free and highly accurate estimate',
+      'Top artisan workmanship, with expert custom cabinet millwork',
+      'Highly versatile builders that are proven to deliver on client’s visions',
+      'Start-to-finish full service contractor',
+      'No stress! We expertly navigate regulations in and around high-rise buildings',
     ],
   },
 ];

@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import ModalComponent from './ModalComponent';
 import GalleryItem from './GalleryItem';
 
-import { Button, Modal } from 'react-bootstrap';
-
-import { Row, Col, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 
 const GalleryList = ({ project }) => {
   const [modal, setModal] = useState(false);

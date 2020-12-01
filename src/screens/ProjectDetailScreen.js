@@ -4,7 +4,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { projects } from '../data';
 
 import GalleryList from '../components/projectspage/GalleryList';
-import IndexList from '../components/projectspage/IndexList';
+import IndexList from '../components/reusable/IndexList';
 import NoMatch from '../components/NoMatch';
 
 const ProjectDetailScreen = ({ match }) => {

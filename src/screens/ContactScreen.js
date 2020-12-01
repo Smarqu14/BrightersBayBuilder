@@ -1,6 +1,6 @@
 import React from 'react';
 import Jumbo from '../components/reusable/Jumbo';
-import Form from '../components/contactpage/Form';
+import Contact from '../components/contactpage/Contact';
 
 const ContactScreen = () => {
   const info = {
@@ -10,7 +10,7 @@ const ContactScreen = () => {
   return (
     <>
       <Jumbo info={info} />
-      <Form />
+      <Contact />
     </>
   );
 };
