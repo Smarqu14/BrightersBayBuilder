@@ -9,7 +9,7 @@ const HomeReviews = ({ images }) => {
       <Container fluid style={{ backgroundColor: '#f4f4f4' }}>
         <div className='section__title'>
           <h1>Customers Reviews</h1>
-          <p>Learn why customers choose Bright Bay Builders</p>
+          <h4>Learn why customers choose Bright Bay Builders</h4>
         </div>
 
         <Container>

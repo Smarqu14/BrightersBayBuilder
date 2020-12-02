@@ -5,14 +5,16 @@ import { Link } from 'react-router-dom';
 const ServiceItem = ({ services }) => {
   const servicesOptions = services.map((service) => {
     return (
-      <Col xs={6} md={4}>
+      <Col xs={6} md={4} key={service._id}>
         <Link to={`/services/${service._id}`}>
           <Image
             src={service.image}
-            roundedCircle
-            className='img-circle hover-effect'
+            rounded
+            className='img-rounded hover-effect'
           />
-          <h4 className='pt-3 text-center'>{service.name}</h4>
+          <h4 className='pt-3 text-center image-rounded-title'>
+            {service.name}
+          </h4>
         </Link>
       </Col>
     );

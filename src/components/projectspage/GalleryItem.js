@@ -5,13 +5,13 @@ const GalleryItem = ({ project, showModal }) => {
   return (
     <>
       <Row className='py-5'>
-        <Col className='hover-effect mx-3' onClick={() => showModal()}>
+        <Col className='hover-effect' onClick={() => showModal()}>
           <Image src={project.image} className='img-card' />
         </Col>
-        <Col className='hover-effect mx-3' onClick={() => showModal()}>
+        <Col className='hover-effect' onClick={() => showModal()}>
           <Image src={project.image} className='img-card' />
         </Col>
-        <Col className='hover-effect mx-3' onClick={() => showModal()}>
+        <Col className='hover-effect' onClick={() => showModal()}>
           <Image src={project.image} className='img-card' />
         </Col>
       </Row>

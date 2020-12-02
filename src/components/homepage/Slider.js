@@ -20,8 +20,8 @@ const Slider = ({ images }) => {
       >
         {images.map((img) => {
           return (
-            <div>
-              <img src={img.src} className='slider__img' alt='' />
+            <div key={img.title}>
+              <img src={img.src} className='slider__img' alt={img.title} />
               <div className='slider__text'>
                 <div className='slider__title'>{img.title}</div>
                 <Link to='/projects'>

@@ -1,9 +1,9 @@
 import React from 'react';
 
 const InfoList = ({ service }) => {
-  const list = service.informationList.map((item) => {
-    return <li>{item}</li>;
+  const list = service.informationList.map((item, idx) => {
+    return <li key={idx}>{item}</li>;
   });
-  return <ul>{list}</ul>;
+  return <ul className="service__quality-list">{list}</ul>;
 };
 export default InfoList;

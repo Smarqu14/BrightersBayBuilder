@@ -8,19 +8,15 @@ const About = () => {
       <Container fluid className='mt-5'>
         <Row>
           <Col>
-            <Container>
-              <div className='about__image'>
-                <Image src={aboutData[0].src} alt={aboutData[0].alt} />
-              </div>
-            </Container>
+            <div className='about__image'>
+              <Image src={aboutData[0].src} alt={aboutData[0].alt} />
+            </div>
           </Col>
           <Col>
-            <Container className='about__story'>
-              <div className='about__story-text'>
-                <h4>{aboutData[0].aboutHeader}</h4>
-                <p>{aboutData[0].aboutSubheader}</p>
-              </div>
-            </Container>
+            <div className='about__story-text'>
+              <h4>{aboutData[0].aboutHeader}</h4>
+              <p>{aboutData[0].aboutSubheader}</p>
+            </div>
           </Col>
         </Row>
       </Container>

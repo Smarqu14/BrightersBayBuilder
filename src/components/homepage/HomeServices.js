@@ -17,7 +17,7 @@ const HomeServices = ({ images }) => {
     <Container fluid className='p-0'>
       <div className='section__title'>
         <h1>Remodeling</h1>
-        <p>This is what we do. </p>
+        <h4>This is what we do. </h4>
       </div>
       <div className='gallery'>{imgs}</div>
     </Container>

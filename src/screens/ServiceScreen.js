@@ -10,7 +10,7 @@ const ServiceScreen = () => {
   };
   return (
     <>
-      <Jumbo info={info} />;
+      <Jumbo info={info} />
       <Services services={services} />
     </>
   );

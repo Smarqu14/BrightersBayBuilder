@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../bbb-logo.png';
+import logo from '../logos/bbb-logo.png';
+
 const Header = () => {
   return (
     <header>

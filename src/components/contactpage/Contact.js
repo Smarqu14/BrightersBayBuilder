@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import bbbLogo from '../../bbb-logo.png';
+import bbbLogo from '../../logos/bbb-logo.png';
 import Form from './Form';
 
 const Contact = () => {
@@ -44,7 +44,7 @@ const Contact = () => {
         </div>
         <div className='contact__information'>
           <h2>Feel free to contact us!</h2>
-          <p>
+          <p className='pb-5 paragraph__text'>
             Get in touch with our representative at any time you please use our
             contact form on our website or one of our contact numbers. Let us
             build your future together. You can always visit us at our HQ, we

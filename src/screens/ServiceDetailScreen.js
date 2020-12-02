@@ -20,7 +20,7 @@ const ServiceDetailScreen = ({ match }) => {
           Go Back
         </Link>
         <Row>
-          <Col md='auto' className='m-5'>
+          <Col md='auto' className='mx-5'>
             <IndexList data={services} />
           </Col>
           <Col>
