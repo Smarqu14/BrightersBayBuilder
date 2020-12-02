@@ -5,8 +5,8 @@ import { reviews } from '../../data';
 const ReviewsCard = () => {
   const reviewsCard = reviews.map((review, idx) => {
     return (
-      <Col key={idx} sm={4} md={4} lg={4} xl={4}>
-        <Card className='card-body-reviews my-1'>
+      <Col key={idx} sm={8} md={4} lg={4} xl={4}>
+        <Card className='card-body-reviews my-3'>
           <Card.Body>
             <Card.Title>{review.name}</Card.Title>
             <div>

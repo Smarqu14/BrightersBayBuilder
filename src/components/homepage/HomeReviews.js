@@ -13,7 +13,7 @@ const HomeReviews = ({ images }) => {
         </div>
 
         <Container>
-          <Row>
+          <Row className='justify-content-center'>
             <ReviewCard />
           </Row>
           <Row className='justify-content-center '>
