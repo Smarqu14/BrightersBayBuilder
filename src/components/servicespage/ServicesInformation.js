@@ -6,7 +6,7 @@ import Form from '../contactpage/Form';
 const ServicesInformation = ({ service }) => {
   return (
     <Container fluid className='my-5'>
-      <h1>{service.name}</h1>
+      <h1 className="image__header">{service.name}</h1>
       <Image src={service.image} className='img-card' />
       <p className='p-5 paragraph__text paragraph__text-pad'>{service.information}</p>
       <h3>Quality With Every Inch Of Space</h3>

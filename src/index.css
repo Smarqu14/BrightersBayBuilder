@@ -449,6 +449,9 @@ a:hover {
   min-height: 250px;
   object-fit: cover;
 }
+.project__header {
+  margin-bottom: 30px;
+}
 
 /* --------- */
 /* Modal */
@@ -481,6 +484,18 @@ a:hover {
   list-style-type: circle;
   font-size: 1.1rem;
   line-height: 1.5;
+}
+
+.image__header {
+  background: radial-gradient(#149a80, #2c3e50);
+  background-size: 100% 200%;
+  background-position: 50% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
 }
 
 /* MEDIA-QUERIES */
@@ -525,9 +540,6 @@ a:hover {
   }
   .section__title h4 {
     font-size: 1.2rem;
-  }
-  #menu_btn {
-    display: none;
   }
 }
 
@@ -589,9 +601,6 @@ a:hover {
   }
   .about__image img {
     object-fit: cover;
-  }
-  #menu_btn {
-    display: none;
   }
 }
 
@@ -667,9 +676,6 @@ a:hover {
   .modal__image {
     height: 70vh;
   }
-  #menu_btn {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -705,10 +711,6 @@ a:hover {
     align-items: center;
     flex-direction: column;
   }
-  #menu_btn {
-    display: block;
-    margin: 10px auto;
-  }
 
   /* ABOUT-PAGE */
   .about__image {
@@ -723,52 +725,31 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+
+  /* PROJECTS */
+  .project__header {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* SERVICES */
+
+  .image-rounded-title {
+    padding-left: 30px;
+    font-size: 1.2rem;
+  }
+
+  /* reusable */
+  .paragraph__text {
+    font-size: 0.95rem;
+  }
+  .service__quality-list {
+    font-size: 0.9rem;
+  }
+
+  .image__header {
+    font-size: 2.1rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-  #menu_btn {
-    display: none;
-  }
 }
-/* @media screen and (max-width: 840px) {
-  .gallery__title {
-    font-size: 1.5rem;
-  }
-  .services__text p {
-    font-size: 1.4rem;
-    padding: 20px 100px;
-  }
-  .gallery {
-    grid-template-rows: repeat(5, 9vw);
-    grid-gap: 5px;
-  }
-}
-@media screen and (max-width: 720px) {
-  .services__text p {
-    font-size: 1.2rem;
-    padding: 20px 70px;
-  }
-  .services__text h1 {
-    font-size: 2.5rem;
-  }
-  .gallery__title {
-    font-size: 1.4em;
-  }
-  .gallery {
-    grid-template-rows: repeat(5, 10vw);
-    grid-gap: 5px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .services__text p {
-    font-size: 1.1rem;
-    padding: 10px 30px;
-  }
-} */

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ServiceItem = ({ services }) => {
   const servicesOptions = services.map((service) => {
     return (
-      <Col xs={6} md={4} key={service._id}>
+      <Col sm={true} md={4} key={service._id}>
         <Link to={`/services/${service._id}`}>
           <Image
             src={service.image}
@@ -22,7 +22,7 @@ const ServiceItem = ({ services }) => {
 
   return (
     <>
-      <Row className='p-5'>{servicesOptions}</Row>
+      <Row className='justify-content-center pr-5'>{servicesOptions}</Row>
     </>
   );
 };

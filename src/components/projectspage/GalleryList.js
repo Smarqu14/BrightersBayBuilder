@@ -18,7 +18,7 @@ const GalleryList = ({ project }) => {
       ) : (
         <>
           {' '}
-          <h2>{project.name}</h2>
+          <h2 className='project__header image__header'>{project.name}</h2>
           <Image src={project.image} className='img-card' />
           <GalleryItem project={project} showModal={showModal} />{' '}
         </>

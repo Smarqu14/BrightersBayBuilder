@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { projects } from '../data';
@@ -8,14 +8,7 @@ import IndexList from '../components/reusable/IndexList';
 import NoMatch from '../components/NoMatch';
 
 const ProjectDetailScreen = ({ match }) => {
-  // this gets the id on the url
   const project = projects.find((project) => project._id === match.params.id);
-
-  const [showMenu, setShowMenu] = useState(false);
-
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
 
   if (!project) {
     return <NoMatch />;
@@ -24,20 +17,16 @@ const ProjectDetailScreen = ({ match }) => {
   return (
     <>
       <Container fluid className='mt-5'>
-        <Button as={Link} className='btn btn-light m-5' to='/projects'>
-          Go Back
-        </Button>
-        <Button id='menu_btn' onClick={toggleMenu}>
-          Show Menu
-        </Button>
+        <Link to='/projects'>
+          <i
+            className='fas fa-chevron-left m-5'
+            style={{ color: '#2C3E4F', fontSize: '2rem' }}
+          />
+        </Link>
         <Row>
-          {showMenu ? (
-            <Col md='auto' className='mx-5'>
-              <IndexList data={projects} />
-            </Col>
-          ) : (
-            ''
-          )}
+          <Col md='auto' className='mx-0'>
+            <IndexList data={projects} />
+          </Col>
           <Col>
             <GalleryList project={project} />
           </Col>
