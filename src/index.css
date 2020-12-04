@@ -475,11 +475,13 @@ a:hover {
   min-height: 250px;
   object-fit: cover;
 }
+
 .img-card-small {
   height: 300px;
   width: 100%;
   min-height: 250px;
   object-fit: cover;
+  cursor: pointer;
 }
 .project__header {
   margin-bottom: 30px;

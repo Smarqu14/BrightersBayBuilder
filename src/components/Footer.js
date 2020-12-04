@@ -10,13 +10,28 @@ const Footer = () => {
       <Container className='container__footer'>
         <Row>
           <Col className='pt-3'>
-            <img src={hoozz} className='logo-footer' alt='houzz logo' />
-            <img src={buildzoom} className='logo-footer' alt='buildzoom logo' />
-            <img
-              src={angieslist}
-              className='logo-footer'
-              alt='buildzoom logo'
-            />
+            <span>
+              <a
+                href='https://www.houzz.com/pro/webuser-791354564/brighter-bay-builders-inc'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={hoozz} className='logo-footer' alt='houzz logo' />
+              </a>
+            </span>
+            <span>
+              <a
+                href='https://www.buildzoom.com/contractor/brighter-bay-builders-inc'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='https://badges.buildzoom.com/fod2.png'
+                  className='logo-footer'
+                  alt='buildzoom logo'
+                />
+              </a>
+            </span>
           </Col>
           <Col className='pt-3'>
             <ul className='contact__details-info'>
