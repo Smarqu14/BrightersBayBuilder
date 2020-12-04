@@ -5,27 +5,13 @@ const ModalCarousel = ({ project }) => {
   return (
     <>
       <Carousel>
-        <Carousel.Item>
-          <img
-            className='modal__image'
-            src={project.imagesList[0]}
-            alt='First slide'
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className='modal__image'
-            src={project.imagesList[1]}
-            alt='Second slide'
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className='modal__image'
-            src={project.imagesList[2]}
-            alt='Third slide'
-          />
-        </Carousel.Item>
+        {project.imagesList.map((img, idx) => {
+          return (
+            <Carousel.Item key={idx}>
+              <img className='modal__image' src={img} alt={`Slide idx`} />
+            </Carousel.Item>
+          );
+        })}
       </Carousel>
     </>
   );

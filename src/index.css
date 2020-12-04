@@ -223,7 +223,7 @@ main {
   padding-top: 90px;
 }
 .logo {
-  height: 50px;
+  height: 75px;
 }
 .contact__details-info ul {
   list-style-type: none;
@@ -278,6 +278,9 @@ a:hover {
 }
 
 /* FOOTER */
+.logo-footer {
+  height: 35px;
+}
 .footer {
   background-color: #2c3e50;
   color: white;
@@ -410,7 +413,7 @@ a:hover {
   text-align: center;
 }
 .contact__information p {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding-top: 20px;
   text-align: justify;
@@ -548,9 +551,7 @@ a:hover {
 
 @media only screen and (min-width: 980px) and (max-width: 1023px) {
   /* footer  */
-  .logo {
-    height: 45px;
-  }
+
   .container__footer {
     margin: 0 auto;
   }
@@ -756,8 +757,117 @@ a:hover {
   .jumbo__header {
     padding-top: 20px;
   }
-  
-}
 
-@media only screen and (min-width: 1200px) {
+  /* CONTACT PAGE */
+  .contact__container {
+    width: 100%;
+  }
+
+  .contact__details {
+    width: 100%;
+  }
+  .logo {
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  /* homepage */
+
+  .slider__btn {
+    font-size: 15px;
+    width: 60%;
+  }
+  .slider__title {
+    font-size: 2.5rem;
+  }
+  .gallery {
+    grid-gap: 5px;
+    grid-template-rows: repeat(5, 10vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .section__title h1 {
+    font-size: 2.3rem;
+  }
+  .section__title h4 {
+    font-size: 1.1rem;
+  }
+
+  /* footer */
+  .container__footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer__social-info {
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+  .footer__social-info span {
+    font-size: 1.7rem;
+  }
+  .designed {
+    margin: 0;
+  }
+  /* About  */
+
+  .about__story-text {
+    margin: 40px auto;
+  }
+  .about__story-text h4 {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .about__story-text p {
+    font-size: 0.9rem;
+  }
+  .about__image {
+    margin: 0 auto;
+  }
+  .image__header {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .paragraph__text {
+    font-size: 1rem;
+    padding: 50px 10px !important;
+  }
+  .image-rounded-title {
+    font-size: 1rem;
+    padding-bottom: 30px;
+  }
+  .contact__container {
+    width: 100%;
+  }
+
+  .contact__details {
+    width: 100%;
+  }
+  .contact_logo {
+    display: none;
+  }
+  .contact__information h2 {
+    font-size: 1.6rem;
+  }
+  .paragraph__text {
+    font-size: 1rem;
+    padding: 10px 0 !important;
+  }
+  .service__quality-list {
+    font-size: 0.8rem;
+  }
+  .service__subheader {
+    font-size: 1.3rem;
+  }
+  .logo {
+    height: 50px;
+  }
 }

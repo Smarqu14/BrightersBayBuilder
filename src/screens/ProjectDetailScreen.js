@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { projects } from '../data';
@@ -20,7 +20,7 @@ const ProjectDetailScreen = ({ match }) => {
         <Link to='/projects'>
           <i
             className='fas fa-chevron-left m-5'
-            style={{ color: '#2C3E4F', fontSize: '2rem' }}
+            style={{ color: 'transparent', fontSize: '2rem' }}
           />
         </Link>
         <Row>

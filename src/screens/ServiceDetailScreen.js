@@ -19,7 +19,7 @@ const ServiceDetailScreen = ({ match }) => {
         <Link to='/projects'>
           <i
             className='fas fa-chevron-left m-5'
-            style={{ color: '#2C3E4F', fontSize: '2rem' }}
+            style={{ color: 'transparent', fontSize: '2rem' }}
           />
         </Link>
         <Row>

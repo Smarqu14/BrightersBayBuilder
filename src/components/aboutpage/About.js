@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <Container fluid className='mt-5'>
-        <Row className="col-responsive">
+        <Row className='col-responsive'>
           <Col sm={true}>
             <div className='about__image'>
               <Image src={aboutData[0].src} alt={aboutData[0].alt} />

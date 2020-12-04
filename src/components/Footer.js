@@ -10,9 +10,13 @@ const Footer = () => {
       <Container className='container__footer'>
         <Row>
           <Col className='pt-3'>
-            <img src={hoozz} className='logo' alt='houzz logo' />
-            <img src={buildzoom} className='logo' alt='buildzoom logo' />
-            <img src={angieslist} className='logo' alt='buildzoom logo' />
+            <img src={hoozz} className='logo-footer' alt='houzz logo' />
+            <img src={buildzoom} className='logo-footer' alt='buildzoom logo' />
+            <img
+              src={angieslist}
+              className='logo-footer'
+              alt='buildzoom logo'
+            />
           </Col>
           <Col className='pt-3'>
             <ul className='contact__details-info'>
