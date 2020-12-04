@@ -310,12 +310,24 @@ a:hover {
   color: #0e76a8;
   transition: all 0.5s ease-in-out;
 }
+.fa-linkedin:hover {
+  color: #0c5c82;
+  transition: all 0.5s ease-in-out;
+}
 .fa-facebook-square {
   color: #0e76a8;
   transition: all 0.5s ease-in-out;
 }
 .fa-yelp {
   color: #c41200;
+  transition: all 0.5s ease-in-out;
+}
+.fa-facebook-square:hover {
+  color: #0c5c82;
+  transition: all 0.5s ease-in-out;
+}
+.fa-yelp:hover {
+  color: #8c1104;
   transition: all 0.5s ease-in-out;
 }
 .fa-instagram {
@@ -350,13 +362,17 @@ a:hover {
   background-clip: text;
   transition: all 0.5s ease-in-out;
 }
+.fa-instagram:hover {
+  transition: all 1s ease-in-out;
+}
 .fa-youtube {
   transition: all 0.5s ease-in-out;
   color: #ff0000;
 }
-.fa-twitter {
+
+.fa-youtube:hover {
   transition: all 0.5s ease-in-out;
-  color: #1da1f2;
+  color: #ff000075;
 }
 /* JUMBO COMPONENT */
 .jumbo__image {

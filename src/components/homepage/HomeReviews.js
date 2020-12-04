@@ -17,7 +17,7 @@ const HomeReviews = () => {
           </Row>
           <Row className='justify-content-center '>
             <Button
-              href='https://www.yelp.com/'
+              href='https://www.yelp.com/biz/brighter-bay-builders-inc-south-san-francisco'
               className='btn__reviews'
               variant='outline-danger'
               target='_blank'

@@ -240,7 +240,7 @@ export const services = [
       'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
     ],
     information:
-      'With 10 years of experience handling full apartment renovation projects, Brighter Bay Builders has earned a reputation for delivering high quality results according to the specific needs of our customers. Our team is highly qualified, and we are able to proactively anticipate and overcome challenges with each project. Working with Brighter Bay Bruilders, we help significantly eliminate the stress that comes with large projects, and make sure we achieve the desired results. We are proud of the work we do, and never take the smallest details for granted. Complete customer satisfaction is our highest priority!',
+      'With 10 years of experience handling full apartment renovation projects, Brighter Bay Builders has earned a reputation for delivering high-quality results according to the specific needs of our customers. Our team is highly qualified, and we are able to proactively anticipate and overcome challenges with each project. Working with Brighter Bay Builders, we help significantly eliminate the stress that comes with large projects, and make sure we achieve the desired results. We are proud of the work we do, and never take the smallest details for granted. Complete customer satisfaction is our highest priority!',
     informationList: [
       'We let our 5 star rating, and reviews speak for us',
       'Free and highly accurate estimate',

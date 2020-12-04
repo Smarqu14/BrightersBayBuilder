@@ -59,7 +59,7 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href='https://www.yelp.com/'
+                  href='https://www.yelp.com/biz/brighter-bay-builders-inc-south-san-francisco'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -68,7 +68,7 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href='https://www.instagram.com/'
+                  href='https://www.instagram.com/brighterbaybuilders/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -91,15 +91,6 @@ const Footer = () => {
                   rel='noreferrer'
                 >
                   <i className={'fab fa-youtube'}></i>
-                </a>
-              </span>
-              <span>
-                <a
-                  href='https://www.twitter.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i className={'fab fa-twitter'}></i>
                 </a>
               </span>
             </div>
