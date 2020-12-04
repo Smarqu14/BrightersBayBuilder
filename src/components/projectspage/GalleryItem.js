@@ -14,7 +14,7 @@ const GalleryItem = ({ project, showModal }) => {
                 className='hover-effect'
                 onClick={() => showModal()}
               >
-                <Image src={img} className='img-card' />
+                <Image src={img} className='img-card-small' />
               </Col>
             );
           }

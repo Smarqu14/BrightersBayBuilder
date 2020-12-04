@@ -29,13 +29,13 @@ const Footer = () => {
               </li>
               <li>
                 <i className={'fas fa-envelope'}></i>
-                <a href='mailto:andres.brighterbay@gmail.com'>
+                <a href='mailto:andres.brighterbay@gmail.com?subject=Interested in construction services'>
                   andres.brighterbay@gmail.com
                 </a>
               </li>
               <li>
                 <i className={'fas fa-link'}></i>
-                <a href='http://localhost:3000'>brightBuilder.com</a>
+                <a href='http://localhost:3000'>www.brighterbaybuilders.com</a>
               </li>
               <li>
                 <i className='fas fa-map-marked-alt'></i>
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className='footer__social-info'>
               <span>
                 <a
-                  href='https://www.linkedin.com/'
+                  href='https://www.linkedin.com/company/brighterbaybuilders'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -77,6 +77,15 @@ const Footer = () => {
               </span>
               <span>
                 <a
+                  href='https://www.facebook.com/Brighter-Bay-Builders-105422331428504'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <i className={'fab fa-facebook-square'}></i>
+                </a>
+              </span>
+              <span>
+                <a
                   href='https://www.youtube.com/'
                   target='_blank'
                   rel='noreferrer'
@@ -94,7 +103,11 @@ const Footer = () => {
                 </a>
               </span>
             </div>
-            <span className='designed'>Designed By Steve Marquez</span>
+            <span className='designed'>
+              <a href='mailto:steveantonio00@gmail.com?subject=Interested in a website'>
+                Designed By Steve Marquez
+              </a>
+            </span>
           </Col>
         </Row>
       </Container>

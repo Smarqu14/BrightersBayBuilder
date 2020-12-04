@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import IndexList from '../components/reusable/IndexList';
 import ServicesInformation from '../components/servicespage/ServicesInformation';
 import { services } from '../data';
@@ -15,13 +14,7 @@ const ServiceDetailScreen = ({ match }) => {
 
   return (
     <>
-      <Container fluid className='mt-5'>
-        <Link to='/projects'>
-          <i
-            className='fas fa-chevron-left m-5'
-            style={{ color: 'transparent', fontSize: '2rem' }}
-          />
-        </Link>
+      <Container fluid className='p-5' style={{ marginTop: '120px' }}>
         <Row>
           <Col md='auto' className='mx-0'>
             <IndexList data={services} />

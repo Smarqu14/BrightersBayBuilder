@@ -19,7 +19,11 @@ const GalleryList = ({ project }) => {
         <>
           {' '}
           <h2 className='project__header image__header'>{project.name}</h2>
-          <Image src={project.image} className='img-card' />
+          <Image
+            src={project.image}
+            className='img-card hover-effect'
+            onClick={() => showModal()}
+          />
           <GalleryItem project={project} showModal={showModal} />{' '}
         </>
       )}

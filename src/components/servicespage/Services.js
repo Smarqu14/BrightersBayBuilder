@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import ServiceItem from './ServiceItem';
 
 const Services = ({ services }) => {
@@ -11,7 +11,7 @@ const Services = ({ services }) => {
           renovation of a single office, <strong>Brighter Bay Builders </strong>
           is committed to exceeding our clients' expectations through a
           proactive and progressive approach to every project. Our general
-          construction services are performed by a staff seasoned veterans who
+          construction services are performed by staff seasoned veterans who
           share a commitment to excellence.
           <strong> Brighter Bay Builders </strong>
           uses cutting edge construction technology in executing the work and

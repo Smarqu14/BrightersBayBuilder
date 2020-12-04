@@ -22,13 +22,13 @@ const Contact = () => {
               </li>
               <li>
                 <i className={'fas fa-envelope'}></i>
-                <a href='mailto:brightBuilder@gmail.com'>
-                  brightBuilder@gmail.com
+                <a href='mailto:andres.brighterbay@gmail.com?subject=Interested in services'>
+                  andres.brighterbay@gmail.com
                 </a>
               </li>
               <li>
                 <i className={'fas fa-link'}></i>
-                <a href='http://localhost:3000'>brightBuilder.com</a>
+                <a href='http://localhost:3000'>wwww.brighterbaybuilders.com</a>
               </li>
               <li>
                 <i className='fas fa-map-marked-alt'></i>

@@ -1,9 +1,8 @@
 import React from 'react';
-import { Card, Container, Button, Row, Col } from 'react-bootstrap';
-import { reviews } from '../../data';
+import { Container, Button, Row } from 'react-bootstrap';
 import ReviewCard from './ReviewCard';
 
-const HomeReviews = ({ images }) => {
+const HomeReviews = () => {
   return (
     <>
       <Container fluid style={{ backgroundColor: '#f4f4f4' }}>

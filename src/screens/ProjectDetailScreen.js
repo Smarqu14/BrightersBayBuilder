@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import { projects } from '../data';
 
 import GalleryList from '../components/projectspage/GalleryList';
@@ -16,13 +15,7 @@ const ProjectDetailScreen = ({ match }) => {
 
   return (
     <>
-      <Container fluid className='mt-5'>
-        <Link to='/projects'>
-          <i
-            className='fas fa-chevron-left m-5'
-            style={{ color: 'transparent', fontSize: '2rem' }}
-          />
-        </Link>
+      <Container fluid className='p-5' style={{ marginTop: '120px' }}>
         <Row>
           <Col md='auto' className='mx-0'>
             <IndexList data={projects} />

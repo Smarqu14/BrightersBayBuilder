@@ -310,6 +310,10 @@ a:hover {
   color: #0e76a8;
   transition: all 0.5s ease-in-out;
 }
+.fa-facebook-square {
+  color: #0e76a8;
+  transition: all 0.5s ease-in-out;
+}
 .fa-yelp {
   color: #c41200;
   transition: all 0.5s ease-in-out;
@@ -451,6 +455,12 @@ a:hover {
 }
 .img-card {
   max-height: 300px;
+  width: 100%;
+  min-height: 250px;
+  object-fit: cover;
+}
+.img-card-small {
+  height: 300px;
   width: 100%;
   min-height: 250px;
   object-fit: cover;
@@ -869,5 +879,9 @@ a:hover {
   }
   .logo {
     height: 50px;
+  }
+  .img-card-small {
+    height: 150px;
+    min-height: 150px;
   }
 }
