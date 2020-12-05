@@ -5,7 +5,7 @@ import ServiceItem from './ServiceItem';
 const Services = ({ services }) => {
   return (
     <>
-      <Container>
+      <Container className='mb-5'>
         <p className='p-5 paragraph__text'>
           Whether it's a multimillion-dollar technical facility or the
           renovation of a single office, <strong>Brighter Bay Builders </strong>
