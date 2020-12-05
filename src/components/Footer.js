@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import hoozz from '../logos/houzz.png';
-import buildzoom from '../logos/buildzoom.png';
-import angieslist from '../logos/angieslist.png';
 
 const Footer = () => {
   return (
@@ -50,7 +48,9 @@ const Footer = () => {
               </li>
               <li>
                 <i className={'fas fa-link'}></i>
-                <a href='http://localhost:3000'>www.brighterbaybuilders.com</a>
+                <a href='https://brighterbaybuilders.web.app/'>
+                  www.brighterbaybuilders.com
+                </a>
               </li>
               <li>
                 <i className='fas fa-map-marked-alt'></i>
