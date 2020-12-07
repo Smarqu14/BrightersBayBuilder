@@ -223,7 +223,10 @@ main {
   padding-top: 90px;
 }
 .logo {
-  height: 75px;
+  height: 100px;
+}
+.logo-header {
+  filter: brightness(120%);
 }
 .contact__details-info ul {
   list-style-type: none;

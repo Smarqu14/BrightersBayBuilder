@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../logos/bbb-logo.png';
+import logo from '../logos/logo-white.png';
 import Fade from 'react-reveal/Fade';
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
             <Navbar.Brand as={Link} to='/'>
               <img
                 src={logo}
-                className='logo'
+                className='logo logo-header'
                 alt='brighter bay builder logo'
               />
             </Navbar.Brand>
