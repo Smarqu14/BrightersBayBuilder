@@ -34,7 +34,7 @@ const Footer = () => {
           <Col className='pt-3'>
             <ul className='contact__details-info'>
               <li>
-                <strong>Bright Bay Builder, Inc</strong>
+                <strong>Brighter Bay Builder, Inc</strong>
               </li>
               <li>
                 <i className={'fas fa-phone-volume'}></i>
