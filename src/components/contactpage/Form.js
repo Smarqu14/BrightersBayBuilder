@@ -123,11 +123,6 @@ class FormContainer extends React.Component {
             onChange={this.handleOnChange}
           />
         </Form.Group>
-
-        <Form.Group id='formGridCheckbox'>
-          <Form.Check type='checkbox' label='Subscribe to our mailing list' />
-        </Form.Group>
-
         <Button
           variant='primary'
           type='submit'

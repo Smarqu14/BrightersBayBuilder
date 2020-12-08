@@ -28,7 +28,7 @@ const Contact = () => {
               </li>
               <li>
                 <i className={'fas fa-link'}></i>
-                <a href='https://brighterbaybuilders.web.app/'>
+                <a href='https://brighterbaybuilders.com/'>
                   wwww.brighterbaybuilders.com
                 </a>
               </li>

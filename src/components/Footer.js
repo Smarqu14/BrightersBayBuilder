@@ -48,7 +48,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className={'fas fa-link'}></i>
-                <a href='https://brighterbaybuilders.web.app/'>
+                <a href='https://brighterbaybuilders.com/'>
                   www.brighterbaybuilders.com
                 </a>
               </li>
@@ -99,7 +99,7 @@ const Footer = () => {
                   <i className={'fab fa-facebook-square'}></i>
                 </a>
               </span>
-              <span>
+              {/* <span>
                 <a
                   href='https://www.youtube.com/'
                   target='_blank'
@@ -107,7 +107,7 @@ const Footer = () => {
                 >
                   <i className={'fab fa-youtube'}></i>
                 </a>
-              </span>
+              </span> */}
             </div>
             <span className='designed'>
               <a href='mailto:steveantonio00@gmail.com?subject=Interested in a website'>
