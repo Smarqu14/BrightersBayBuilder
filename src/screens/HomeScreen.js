@@ -11,7 +11,7 @@ const HomeScreen = () => {
       <Slider images={sliderImages} />
       <HomeServices images={images} />
       <HomeReviews images={images} />
-      <VideoPlayer />
+      {/* <VideoPlayer /> */}
     </div>
   );
 };
