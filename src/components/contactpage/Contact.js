@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import bbbLogo from '../../logos/logo-white.png';
+import bbbLogo from '../../logos/bbb-logo.png';
 import Form from './Form';
 
 const Contact = () => {
