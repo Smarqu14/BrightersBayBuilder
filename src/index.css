@@ -223,7 +223,7 @@ main {
   padding-top: 90px;
 }
 .logo {
-  height: 100px;
+  height: 75px;
 }
 .logo-header {
   filter: brightness(120%);
@@ -637,6 +637,9 @@ a:hover {
   .about__image img {
     object-fit: cover;
   }
+  .contact__details-info li {
+    font-size: 0.9rem;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -675,7 +678,6 @@ a:hover {
   }
   .contact__details-info li {
     font-size: 0.9rem;
-    margin: 5px;
   }
   /* aboutpage */
   .about__story-text h4 {

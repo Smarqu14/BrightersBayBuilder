@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
+import firebase from '../../firebase';
 
 class FormContainer extends React.Component {
   state = {
@@ -14,9 +15,6 @@ class FormContainer extends React.Component {
 
   sendEmail = (e) => {
     e.preventDefault();
-    this.setState({
-      submitted: true,
-    });
 
     emailjs
       .sendForm(
@@ -33,11 +31,30 @@ class FormContainer extends React.Component {
           console.log(error.text);
         }
       );
+
+    firebase
+      .firestore()
+      .collection('form-information')
+      .add({
+        name: this.state.name,
+        email: this.state.email,
+        message: this.state.message,
+        address: this.state.address,
+        phoneNumber: this.state.number,
+      })
+      .then(() => {
+        console.log('Message was submitted');
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+
     this.setState({
       name: '',
       email: '',
       number: '',
       message: '',
+      submitted: true,
     });
   };
 
