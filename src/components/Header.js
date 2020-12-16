@@ -20,7 +20,7 @@ const Header = () => {
               <img
                 src={logo}
                 className='logo logo-header'
-                alt='brighter bay builder logo'
+                alt='Brighter Bay Builder, Inc.'
               />
             </Navbar.Brand>
           </Fade>
