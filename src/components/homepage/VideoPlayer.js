@@ -13,7 +13,6 @@ const VideoPlayer = () => {
         url='https://www.youtube.com/watch?v=EUvVeAvoS8k&feature=youtu.be'
         width='640px'
         height='360px'
-        playIcon
       />
     </div>
   );

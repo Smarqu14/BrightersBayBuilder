@@ -1,3 +1,8 @@
+import slider1 from './images/slider/bathroom.jpg';
+import slider2 from './images/slider/construction1.jpg';
+import slider3 from './images/slider/noeproj1.jpg';
+import slider4 from './images/slider/noevalley2.jpg';
+
 export const images = [
   {
     src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
@@ -20,21 +25,22 @@ export const images = [
     class: 'gallery__item--4',
   },
 ];
+
 export const sliderImages = [
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
+    src: slider4,
     title: 'Home Renovation',
   },
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/3.jpeg',
+    src: slider1,
     title: 'Bathroom Renovation',
   },
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/9.jpeg',
+    src: slider3,
     title: 'Kitchen Renovation',
   },
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/13.jpeg',
+    src: slider2,
     title: 'New Construction',
   },
 ];
