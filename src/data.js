@@ -54,28 +54,28 @@ export const reviews = [
   {
     name: 'Clara Fuentes',
     review:
-      'Brighter Bay Builders is an amazing company with caring employees. They are all very knowledgeable and will design and execute exactly what you envision. Highly satisfied with our appartment.',
+      'Brighter Bay Builders, Inc. is an amazing company with caring employees. They are all very knowledgeable and will design and execute exactly what you envision. Highly satisfied with our appartment.',
   },
   {
     name: 'Rosa Embart',
     review:
-      'I am amazed not only at the beauty and quality of the work done by Brighter Bay Builders, but also by the degree of trust and confidence.',
+      'I am amazed not only at the beauty and quality of the work done by Brighter Bay Builders, Inc. but also by the degree of trust and confidence.',
   },
   {
     name: 'Patrick Phases',
     review:
-      'I was very pleased with the work that was done on my house. Brighter Bay Builders remodeled my house and turn it into my dream home. Despite the rainy weather he finished the job in a timely manner. I would recommend them to anyone.',
+      'I was very pleased with the work that was done on my house. Brighter Bay Builders, Inc. remodeled my house and turn it into my dream home. Despite the rainy weather he finished the job in a timely manner. I would recommend them to anyone.',
   },
 ];
 
 export const aboutData = [
   {
     aboutHeader:
-      'Based in San Francisco Bay Area, Bright Bay Builders, Inc. has earned a reputation as a high quality, competitive firm that completes projects on time and within budget.',
+      'Based in San Francisco Bay Area, Bright Bay Builders, Inc. has earned a reputation as a high-quality, competitive firm that completes projects on time and within budget.',
     aboutSubheader:
-      "With over 10 years of experience in the field, there is no project we can't handle. We here at Brighter Bay Builders, Inc., take pride in our work and always pay attention to the minor details. We are committed to educating our customers on the best choices for their projects and strive for a smooth and efficient experience. We only work with the best materials available and guarantee the best quality and your satisfaction. We are committed to educating our customers on the best choices for their projects and strive for a smooth and efficient experience. We only work with the best materials available and guarantee the best quality and your satisfaction.",
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
-    alt: 'Living room with sofa',
+      "With over 10 years of experience in the field, there is no project we can't handle. Here at Brighter Bay Builders, Inc., we take pride in our work and always pay attention to the minor details. We are committed to educating our customers on their projects' best choices and striving for a smooth and efficient experience. We only work with the best materials available and guarantee the best quality and your satisfaction. Our success comes from having core values that ensure customer's contentment with the results of the project. We believe in honesty, loyalty, integrity, and leadership. Let us work together to make your dream home a reality.",
+    src: service2,
+    alt: 'Living room ',
   },
 ];
 

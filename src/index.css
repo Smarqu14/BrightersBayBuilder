@@ -28,7 +28,6 @@ main {
   display: flex;
   box-align: center;
   align-items: center;
-
   justify-content: center;
 }
 
@@ -37,7 +36,6 @@ main {
   height: 100vh;
   width: 100%;
   z-index: -1;
-  object-fit: cover;
 }
 
 .alice-carousel__dots {
