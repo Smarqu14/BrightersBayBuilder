@@ -6,13 +6,14 @@ const VideoPlayer = () => {
     <div className='video__player'>
       <div className='section__title'>
         <h1>Demostraction Video</h1>
-        <h4>Timelapse of our last project</h4>
+        <h4>We deliver customer satisfaction</h4>
       </div>
       <ReactPlayer
         controls
-        url='https://youtu.be/yzpcyGJ2wD0'
-        width='80%'
-        height='500px'
+        url='https://www.youtube.com/watch?v=EUvVeAvoS8k&feature=youtu.be'
+        width='640px'
+        height='360px'
+        playIcon
       />
     </div>
   );
