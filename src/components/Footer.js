@@ -34,7 +34,7 @@ const Footer = () => {
           <Col className='pt-3'>
             <ul className='contact__details-info'>
               <li>
-                <strong>Brighter Bay Builder, Inc</strong>
+                <strong>Brighter Bay Builder, Inc.</strong>
               </li>
               <li>
                 <i className={'fas fa-phone-volume'}></i>
@@ -99,15 +99,15 @@ const Footer = () => {
                   <i className={'fab fa-facebook-square'}></i>
                 </a>
               </span>
-              {/* <span>
+              <span>
                 <a
-                  href='https://www.youtube.com/'
+                  href='https://www.youtube.com/watch?v=EUvVeAvoS8k'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <i className={'fab fa-youtube'}></i>
                 </a>
-              </span> */}
+              </span>
             </div>
             <span className='designed'>
               <a href='mailto:steveantonio00@gmail.com?subject=Interested in a website'>

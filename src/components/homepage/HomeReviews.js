@@ -7,8 +7,8 @@ const HomeReviews = () => {
     <>
       <Container fluid style={{ backgroundColor: '#f4f4f4' }}>
         <div className='section__title'>
-          <h1>Customers Reviews</h1>
-          <h4>Learn why customers choose Bright Bay Builders</h4>
+          <h1>Customer Reviews</h1>
+          <h4>Learn why customers choose Brighter Bay Builders, Inc.</h4>
         </div>
 
         <Container>
@@ -17,7 +17,7 @@ const HomeReviews = () => {
           </Row>
           <Row className='justify-content-center '>
             <Button
-              href='https://www.yelp.com/biz/brighter-bay-builders-inc-south-san-francisco'
+              // href='https://www.yelp.com/biz/brighter-bay-builders-inc-south-san-francisco'
               className='btn__reviews'
               variant='outline-danger'
               target='_blank'
