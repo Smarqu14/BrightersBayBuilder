@@ -3,24 +3,29 @@ import slider2 from './images/slider/construction1.jpg';
 import slider3 from './images/slider/noeproj1.jpg';
 import slider4 from './images/slider/noevalley2.jpg';
 
-export const images = [
+import service1 from './images/servicesImg/services1.jpg';
+import service2 from './images/servicesImg/services2.jpg';
+import service3 from './images/servicesImg/services3.jpg';
+import service4 from './images/servicesImg/services4.jpg';
+
+export const servicesImages = [
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/6.jpeg',
+    src: service2,
     title: 'Home Remodeling',
     class: 'gallery__item--1',
   },
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/5.jpeg',
+    src: service1,
     title: 'Bathroom Remodeling',
     class: 'gallery__item--2',
   },
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/7.jpeg',
+    src: service3,
     title: 'Kitchen Remodeling',
     class: 'gallery__item--3',
   },
   {
-    src: 'https://bbb-construction.s3-us-west-1.amazonaws.com/14.jpeg',
+    src: service4,
     title: 'New Construction',
     class: 'gallery__item--4',
   },
