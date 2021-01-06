@@ -4,7 +4,7 @@ import slider3 from './images/noeproj1.jpg';
 import slider4 from './images/noevalley2.jpg';
 
 import service1 from './images/services1.jpg';
-import service2 from './images/services2.jpg';
+import service2 from './images/services2.png';
 import service3 from './images/services3.jpg';
 import service4 from './images/services4.jpg';
 
@@ -12,14 +12,18 @@ import noe1 from './images/noevalley1.jpg';
 import noe2 from './images/noevalley3.jpg';
 import noe3 from './images/noevalley4.jpg';
 import noe4 from './images/noevalley5.jpg';
-import noe5 from './images/noevalley6.jpg';
 
 import ssf1 from './images/ssf1.jpg';
 import ssf2 from './images/ssf2.jpg';
 import ssf3 from './images/ssf3.jpg';
-import ssf4 from './images/ssf5.jpg';
-import ssf5 from './images/ssf6.jpg';
-import ssf6 from './images/ssf7.jpg';
+import ssf4 from './images/ssf4.jpg';
+import ssf5 from './images/ssf5.png';
+
+import noeTwo2 from './images/noeproj3.jpg';
+
+import exterior1 from './images/exterior1.jpg';
+import exterior2 from './images/exterior2.jpg';
+import exterior3 from './images/exterior3.jpg';
 
 export const servicesImages = [
   {
@@ -141,36 +145,24 @@ export const projects = [
     _id: 'noe-residence',
     name: 'Noe Valley Residence 1',
     image: noe1,
-    imagesList: [noe1, noe2, noe3, noe4, noe5],
+    imagesList: [noe1, noe2, noe3, noe4],
   },
   {
-    _id: 'new-Construction',
-    name: 'South San Francisco Residence',
+    _id: 'noe-residence-2',
+    name: 'Noe Valley Residence 2',
+    image: slider3,
+    imagesList: [noeTwo2, slider3],
+  },
+  {
+    _id: 'new-construction',
+    name: 'New Construction',
     image: ssf1,
-    imagesList: [ssf2, ssf3, ssf4, ssf5, ssf6],
+    imagesList: [ssf5, ssf2, ssf3, ssf4],
   },
   {
-    _id: 'mission-residence',
-    name: 'Mission District Residence',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
-    imagesList: [
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/14.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/15.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/16.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/17.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/18.jpeg',
-    ],
-  },
-  {
-    _id: 'noe-residence',
-    name: 'Noe Valley Residence',
-    image: 'https://bbb-construction.s3-us-west-1.amazonaws.com/18.jpeg',
-    imagesList: [
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/19.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/20.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/21.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/22.jpeg',
-      'https://bbb-construction.s3-us-west-1.amazonaws.com/23.jpeg',
-    ],
+    _id: 'exterior',
+    name: 'Exterior Remodeling',
+    image: exterior3,
+    imagesList: [exterior1, exterior2, exterior3, exterior1],
   },
 ];
