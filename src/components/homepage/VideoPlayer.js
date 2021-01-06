@@ -11,8 +11,8 @@ const VideoPlayer = () => {
       <ReactPlayer
         controls
         url='https://www.youtube.com/watch?v=EUvVeAvoS8k&feature=youtu.be'
-        width='640px'
-        height='360px'
+        width='80%'
+        height='400px'
       />
     </div>
   );

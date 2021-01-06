@@ -10,7 +10,7 @@ const HomeScreen = () => {
     <div>
       <Slider images={sliderImages} />
       <HomeServices images={servicesImages} />
-      <HomeReviews />
+      {/* <HomeReviews /> */}
       <VideoPlayer />
     </div>
   );
