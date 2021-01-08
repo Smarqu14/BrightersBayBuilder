@@ -5,8 +5,8 @@ import slider4 from './images/noevalley2.jpg';
 
 import service1 from './images/services1.jpg';
 import service2 from './images/services2.png';
-import service3 from './images/services3.jpg';
-import service4 from './images/services4.jpg';
+import service3 from './images/services3.png';
+import service4 from './images/services4.png';
 
 import noe1 from './images/noevalley1.jpg';
 import noe2 from './images/noevalley3.jpg';
@@ -50,7 +50,7 @@ export const servicesImages = [
 
 export const sliderImages = [
   {
-    src: slider4,
+    src: noe4,
     title: 'Home Renovation',
   },
   {
@@ -58,12 +58,12 @@ export const sliderImages = [
     title: 'Bathroom Renovation',
   },
   {
-    src: slider3,
+    src: noe1,
     title: 'Kitchen Renovation',
   },
   {
     src: slider2,
-    title: 'New Construction',
+    title: 'New Construction & ADU',
   },
 ];
 
