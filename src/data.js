@@ -1,7 +1,6 @@
 import slider1 from './images/bathroom.jpg';
 import slider2 from './images/construction1.jpg';
 import slider3 from './images/noeproj1.jpg';
-import slider4 from './images/noevalley2.jpg';
 
 import service1 from './images/services1.jpg';
 import service2 from './images/services2.png';
@@ -24,6 +23,11 @@ import noeTwo2 from './images/noeproj3.jpg';
 import exterior1 from './images/exterior1.jpg';
 import exterior2 from './images/exterior2.jpg';
 import exterior3 from './images/exterior3.jpg';
+
+import ashbury1 from './images/ashburyheights1.jpg';
+import ashbury2 from './images/ashburyheights2.jpg';
+import ashbury4 from './images/ashburyheights4.jpg';
+import ashbury6 from './images/ashburyheights6.jpg';
 
 export const servicesImages = [
   {
@@ -88,7 +92,7 @@ export const reviews = [
 export const aboutData = [
   {
     aboutHeader:
-      'Based in San Francisco Bay Area, Bright Bay Builders, Inc. has earned a reputation as a high-quality, competitive firm that completes projects on time and within budget.',
+      'Based in San Francisco Bay Area, Brighter Bay Builders, Inc. has earned a reputation as a high-quality, competitive firm that completes projects on time and within budget.',
     aboutSubheader:
       "With over 10 years of experience in the field, there is no project we can't handle. Here at Brighter Bay Builders, Inc., we take pride in our work and always pay attention to the minor details. We are committed to educating our customers on their projects' best choices and striving for a smooth and efficient experience. We only work with the best materials available and guarantee the best quality and your satisfaction. Our success comes from having core values that ensure customer's contentment with the results of the project. We believe in honesty, loyalty, integrity, and leadership. Let us work together to make your dream home a reality.",
     src: service2,
@@ -100,7 +104,7 @@ export const services = [
   {
     _id: 'appartment-renovation',
     name: 'Fully Apartment Renovation',
-    image: slider4,
+    image: noe4,
     information:
       "With 10 years of experience handling full apartment renovation projects, Brighter Bay Builders, Inc. has earned a reputation for delivering high-quality results according to our customers' specific needs. Our team is highly qualified, and we can proactively anticipate and overcome challenges with each project. Working with Brighter Bay Builders ,Inc., we help significantly eliminate large projects' stress and make sure we achieve the desired results. We are proud of the work we do and never take the smallest details for granted. Complete customer satisfaction is our highest priority!",
     informationList: [
@@ -128,7 +132,7 @@ export const services = [
   {
     _id: 'kitchen-remodeling',
     name: 'Kitchen Remodeling',
-    image: slider3,
+    image: noe1,
     information:
       'We know that a kitchen can be as much of a work of art as it is a functional place to cook, eat, or entertain. What differentiates Brighter Bay Builders, Inc. is its ability to deliver a complete kitchen remodeling vision while consistently ensuring the small but artful details are not overlooked. We can handle kitchen projects from start to finish for apartments, brownstones, and town-homes across the Bay Area. Our highly qualified team takes pride in every cabinet, tile, countertop, sink, faucet, appliance, and light figure – our craftsmanship is highly regarded.',
     informationList: [
@@ -164,5 +168,11 @@ export const projects = [
     name: 'Exterior Remodeling',
     image: exterior3,
     imagesList: [exterior1, exterior2, exterior3, exterior1],
+  },
+  {
+    _id: 'ashbury-residence',
+    name: 'Ashbury Heights',
+    image: ashbury1,
+    imagesList: [ashbury1, ashbury2, ashbury6, ashbury4],
   },
 ];

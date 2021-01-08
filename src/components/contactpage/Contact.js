@@ -11,7 +11,7 @@ const Contact = () => {
           <div className='contact__details-info'>
             <ul>
               <li>
-                <strong>Bright Bay Builder, Inc.</strong>
+                <strong>Brighter Bay Builders, Inc.</strong>
               </li>
               <li>
                 10 Altura Way, <br /> South San Francisco, CA, 94080
