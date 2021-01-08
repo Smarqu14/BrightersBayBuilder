@@ -11,18 +11,13 @@ import noe1 from './images/noevalley1.jpg';
 import noe2 from './images/noevalley3.jpg';
 import noe3 from './images/noevalley4.jpg';
 import noe4 from './images/noevalley5.jpg';
-
-import ssf1 from './images/ssf1.jpg';
-import ssf2 from './images/ssf2.jpg';
-import ssf3 from './images/ssf3.jpg';
-import ssf4 from './images/ssf4.jpg';
-import ssf5 from './images/ssf5.png';
-
 import noeTwo2 from './images/noeproj3.jpg';
 
-import exterior1 from './images/exterior1.jpg';
 import exterior2 from './images/exterior2.jpg';
 import exterior3 from './images/exterior3.jpg';
+import exterior4 from './images/exterior4.jpg';
+import exterior5 from './images/exterior5.jpg';
+import exterior6 from './images/exterior6.jpg';
 
 import ashbury1 from './images/ashburyheights1.jpg';
 import ashbury2 from './images/ashburyheights2.jpg';
@@ -158,16 +153,10 @@ export const projects = [
     imagesList: [noeTwo2, slider3],
   },
   {
-    _id: 'new-construction',
-    name: 'New Construction',
-    image: ssf1,
-    imagesList: [ssf5, ssf2, ssf3, ssf4],
-  },
-  {
     _id: 'exterior',
     name: 'Exterior Remodeling',
-    image: exterior3,
-    imagesList: [exterior1, exterior2, exterior3, exterior1],
+    image: exterior6,
+    imagesList: [exterior6, exterior5, exterior2, exterior3, exterior4],
   },
   {
     _id: 'ashbury-residence',
