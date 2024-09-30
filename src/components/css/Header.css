@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  margin-right: auto;
+}
+
+.navlink {
+  color: #1e2b37;
+  padding: 10px 15px;
+  font-weight: 300;
+  font-size: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.navlink:hover,
+.navlink.active {
+  color: #0056b3;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .navlink {
+    padding: 8px;
+    font-size: 0.65rem;
+  }
+
+  .navbar-collapse {
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: 769px) {
+  .navlink {
+    font-size: 0.8rem;
+  }
+}

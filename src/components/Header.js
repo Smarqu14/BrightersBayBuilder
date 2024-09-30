@@ -1,63 +1,49 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../logos/logo-white.png';
-import Fade from 'react-reveal/Fade';
+import './css/Header.css';
+
+const navLinks = [
+  { path: '/', label: 'HOME' },
+  { path: '/services', label: 'SERVICES' },
+  { path: '/projects', label: 'PROJECTS' },
+  { path: '/lead-based-paint', label: 'LEAD BASED PAINT' },
+  { path: '/about', label: 'ABOUT' },
+  { path: '/contact', label: 'CONTACT' },
+];
+
+const NavLinks = memo(({ links, currentPath }) => (
+  <>
+    {links.map(({ path, label }) => (
+      <Nav.Link as={Link} to={path} key={path}>
+        <span className={`navlink ${currentPath === path ? 'active' : ''}`}>
+          {label}
+        </span>
+      </Nav.Link>
+    ))}
+  </>
+));
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <header>
-      <Navbar
-        bg='primary'
-        variant='dark'
-        expand='lg'
-        collapseOnSelect
-        fixed='top'
-      >
-        <Container>
-          <Fade top cascade>
-            <Navbar.Brand as={Link} to='/'>
-              <img
-                src={logo}
-                className='logo logo-header'
-                alt='Brighter Bay Builder, Inc.'
-              />
-            </Navbar.Brand>
-          </Fade>
+      <Navbar expand='lg'>
+        <Container className='d-flex justify-content-between align-items-center'>
+          <Navbar.Brand as={Link} to='/' className='flex-shrink-0 navbar'>
+            <img
+              src={logo}
+              className='logo logo-header'
+              alt='Brighter Bay Builder, Inc.'
+            />
+          </Navbar.Brand>
+
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='ml-auto'>
-              <Fade top cascade>
-                <Nav.Link as={Link} to='/'>
-                  <span>
-                    <i className='fas fa-home'></i>
-                    HOME
-                  </span>
-                </Nav.Link>
-                <Nav.Link as={Link} to='/about'>
-                  <span>
-                    <i className='fas fa-users'></i>
-                    ABOUT US
-                  </span>
-                </Nav.Link>
-                <Nav.Link as={Link} to='/projects'>
-                  <span>
-                    <i className='fas fa-hammer'></i>
-                    PROJECTS
-                  </span>
-                </Nav.Link>
-                <Nav.Link as={Link} to='/services'>
-                  <span>
-                    <i className='fas fa-paint-roller'></i>
-                    SERVICES
-                  </span>
-                </Nav.Link>
-                <Nav.Link as={Link} to='/contact'>
-                  <span className='btn-contact'>
-                    <i className='fas fa-address-card'></i>CONTACT US
-                  </span>
-                </Nav.Link>
-              </Fade>
+            <Nav className='mx-auto'>
+              <NavLinks links={navLinks} currentPath={location.pathname} />
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -66,4 +52,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default memo(Header);

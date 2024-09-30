@@ -1,9 +1,13 @@
 import React from 'react';
 
-const InfoList = ({ service }) => {
-  const list = service.informationList.map((item, idx) => {
-    return <li key={idx}>{item}</li>;
-  });
-  return <ul className="service__quality-list">{list}</ul>;
-};
+const InfoList = React.memo(({ service }) => {
+  return (
+    <ul className='service__quality-list'>
+      {service.informationList.map((item, idx) => (
+        <li key={idx}>{item}</li>
+      ))}
+    </ul>
+  );
+});
+
 export default InfoList;

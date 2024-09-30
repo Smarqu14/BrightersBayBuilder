@@ -1,0 +1,139 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.gallery__listing {
+  flex: 1 1 calc(12.5% - 16px);
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  transition: transform 0.3s ease;
+  margin-bottom: 16px;
+}
+
+.gallery__listing:hover {
+  transform: scale(1.05);
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.gallery__listing:hover .gallery__title {
+  opacity: 0;
+}
+
+.about-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #1e2b37;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 90px;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.allservices-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  .gallery__listing {
+    flex: 1 1 calc(25% - 16px);
+  }
+}
+
+@media (max-width: 900px) {
+  .gallery__listing {
+    flex: 1 1 calc(33.33% - 16px);
+  }
+
+  .gallery__title {
+    font-size: 1.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery__listing {
+    flex: 1 1 calc(50% - 16px);
+  }
+
+  .gallery__title {
+    font-size: 1.2rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .gallery__listing {
+    flex: 1 1 calc(100% - 16px);
+  }
+
+  .gallery__title {
+    font-size: 1rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-section p {
+    font-size: 0.8rem;
+  }
+}

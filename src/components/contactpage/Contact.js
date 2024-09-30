@@ -1,62 +1,34 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import bbbLogo from '../../logos/bbb-logo.png';
 import Form from './Form';
+import '../css/Contact.css';
 
 const Contact = () => {
   return (
     <Container>
-      <div className='contact__container'>
-        <div className='contact__details'>
-          <div className='contact__details-info'>
-            <ul>
-              <li>
-                <strong>Brighter Bay Builders, Inc.</strong>
-              </li>
-              <li>
-                10 Altura Way, <br /> South San Francisco, CA, 94080
-              </li>
-              <li>
-                <i className={'fas fa-phone-volume'}></i>
-                <a href='tel:415-225-8732'>415-225-8732</a>
-              </li>
-              <li>
-                <i className={'fas fa-envelope'}></i>
-                <a href='mailto:andres.brighterbay@gmail.com?subject=Interested in services'>
-                  andres.brighterbay@gmail.com
-                </a>
-              </li>
-              <li>
-                <i className={'fas fa-link'}></i>
-                <a href='https://brighterbaybuilders.com/'>
-                  wwww.brighterbaybuilders.com
-                </a>
-              </li>
-              <li>
-                <i className='fas fa-map-marked-alt'></i>
-                <a href='https://goo.gl/maps/buXhjEiwSP6B6JtP7'>
-                  {`Maps & directions`}
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className='contact__details-logo'>
-            <img src={bbbLogo} className='logo contact_logo' alt='BBB logo' />
-          </div>
-        </div>
-        <div className='contact__information'>
-          <h2>Feel free to contact us!</h2>
-          <p className='pb-5 paragraph__text'>
-            Get in touch with our representative at any time you please use our
-            contact form on our website or one of our contact numbers. Let us
-            build your future together. You can always visit us at our HQ, we
-            have a friendly staff and a mean cup of coffee.
-          </p>
-        </div>
-        <Form />
+      <div className='contact__information'>
+        <h2>Feel free to contact us!</h2>
+        <p className='paragraph__text'>
+          Get in touch with our representative at any time you please use our
+          contact form on our website or one of our contact numbers. Let us
+          build your future together. You can always visit us at our HQ; we have
+          a friendly staff and a mean cup of coffee.
+        </p>
+      </div>
+      <Form />
+      <div className='map-container'>
+        <iframe
+          title='Map'
+          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.3621983868754!2d-122.44195758468184!3d37.64656897975735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7c95d0728c01%3A0x50bcb07a7c218f16!2s10%20Altura%20Way%2C%20South%20San%20Francisco%2C%20CA%2094080!5e0!3m2!1sen!2sus!4v1632442855556!5m2!1sen!2sus'
+          width='100%'
+          height='450'
+          style={{ border: 0 }}
+          allowFullScreen
+          loading='lazy'
+        ></iframe>
       </div>
     </Container>
   );
 };
 
-export default Contact;
+export default React.memo(Contact);

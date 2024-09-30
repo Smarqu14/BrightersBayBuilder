@@ -1,5 +1,4 @@
 import slider1 from './images/bathroom.jpg';
-import slider2 from './images/construction1.jpg';
 import slider3 from './images/noeproj1.jpg';
 
 import service1 from './images/services1.jpg';
@@ -7,10 +6,10 @@ import service2 from './images/services2.png';
 import service3 from './images/services3.png';
 import service4 from './images/services4.png';
 
-import noe1 from './images/noevalley1.jpg';
-import noe2 from './images/noevalley3.jpg';
-import noe3 from './images/noevalley4.jpg';
-import noe4 from './images/noevalley5.jpg';
+import noe1 from './images/noe1.webp';
+import noe2 from './images/noe2.webp';
+import noe3 from './images/noe3.webp';
+import noe4 from './images/noe4.webp';
 import noeTwo2 from './images/noeproj3.jpg';
 
 import exterior2 from './images/exterior2.jpg';
@@ -23,6 +22,23 @@ import ashbury1 from './images/ashburyheights1.jpg';
 import ashbury2 from './images/ashburyheights2.jpg';
 import ashbury4 from './images/ashburyheights4.jpg';
 import ashbury6 from './images/ashburyheights6.jpg';
+
+import rental from './images/rental.webp';
+import fences from './images/fences.webp';
+import flooring from './images/flooring.webp';
+import general from './images/general.webp';
+import deck from './images/deck.webp';
+import basement from './images/basement.webp';
+import carpentry from './images/carpentry.webp';
+import commercial from './images/commercial.webp';
+import concrete from './images/concrete.webp';
+import demolition from './images/demolition.webp';
+import drywall from './images/drywall.webp';
+import handyman from './images/handyman.webp';
+import maintenance from './images/maintenance.webp';
+import restoration from './images/restoration.webp';
+import paint from './images/paint.webp';
+import windows from './images/windows.webp';
 
 export const servicesImages = [
   {
@@ -41,7 +57,7 @@ export const servicesImages = [
     class: 'gallery__item--3',
   },
   {
-    src: service4,
+    src: noe4,
     title: 'New Construction',
     class: 'gallery__item--4',
   },
@@ -49,20 +65,20 @@ export const servicesImages = [
 
 export const sliderImages = [
   {
-    src: noe4,
-    title: 'Home Renovation',
-  },
-  {
-    src: slider1,
-    title: 'Bathroom Renovation',
-  },
-  {
     src: noe1,
-    title: 'Kitchen Renovation',
+    title: 'Home Improvement',
   },
   {
-    src: slider2,
-    title: 'New Construction & ADU',
+    src: noe2,
+    title: 'Bathroom Improvement',
+  },
+  {
+    src: noe3,
+    title: 'Kitchen Improvement',
+  },
+  {
+    src: noe4,
+    title: 'New Builds & Accessory Dwelling Units',
   },
 ];
 
@@ -88,8 +104,13 @@ export const aboutData = [
   {
     aboutHeader:
       'Based in San Francisco Bay Area, Brighter Bay Builders, Inc. has earned a reputation as a high-quality, competitive firm that completes projects on time and within budget.',
-    aboutSubheader:
-      "With over 10 years of experience in the field, there is no project we can't handle. Here at Brighter Bay Builders, Inc., we take pride in our work and always pay attention to the minor details. We are committed to educating our customers on their projects' best choices and striving for a smooth and efficient experience. We only work with the best materials available and guarantee the best quality and your satisfaction. Our success comes from having core values that ensure customer's contentment with the results of the project. We believe in honesty, loyalty, integrity, and leadership. Let us work together to make your dream home a reality.",
+    aboutSubheader: `
+    Brighter Bay Builders, Inc. is your trusted contracting firm specializing in high-quality residential and commercial remodels at competitive prices. With a proven track record of completing projects on time, we have built strong relationships with our clients, who value our commitment to excellence and customer satisfaction. Reviews on platforms like Google, Yelp, and Houzz highlight our dedication to delivering outstanding service.
+  
+    As a fully insured, bonded, and licensed company operating in the San Francisco Bay Area, we ensure an exceptional customer experience. We collaborate with skilled subcontractors who share our core values, enabling us to manage projects efficiently and maintain our high standards of professionalism.
+  
+    At Brighter Bay Builders, we believe that no project is too small. Our expertise spans a wide range of services, including kitchen and bathroom remodeling, basement renovations, handyman services, drywall repair, painting, concrete and masonry work, window and door installation, fencing, decking, maintenance services, and more. Whether you’re a homeowner or a property management company, we have the competence and capacity to meet your needs with reliability and quality.
+  `,
     src: service2,
     alt: 'Living room',
   },
@@ -135,6 +156,221 @@ export const services = [
       'Our builders will make it a reality for you',
       'Start-to-finish full-service contractor',
       'No stress! We expertly navigate regulations in and around high-rise buildings',
+    ],
+  },
+  {
+    _id: 'general-contractor',
+    name: 'General Contractor',
+    image: general,
+    information:
+      "Brighter Bay Builders, Inc. is your premier choice for reliable and skilled general contracting in the San Francisco Bay Area. We specialize in both residential and commercial construction projects, ensuring every client's vision is brought to life with precision and care. Our commitment to customer satisfaction is at the core of our operations. Over the years, we have cultivated strong relationships built on trust and transparency, making us a preferred partner in the community. Our licensed and insured contractors are dedicated professionals who prioritize your needs, working diligently to deliver exceptional results that exceed expectations. We take pride in our ability to complete projects on time, ensuring that our clients experience joy and peace of mind throughout the entire construction process.",
+    informationList: [
+      'Expertise Across Sectors: Specializing in both residential and commercial construction, ensuring tailored solutions for every project.',
+      'Client-Centric Approach: Committed to exceptional customer satisfaction, fostering strong relationships built on trust and transparency.',
+      'Licensed and Insured Professionals: Our skilled contractors are fully licensed and insured, prioritizing safety and quality in every project.',
+      'Timely Project Delivery: We take pride in completing projects on schedule, ensuring a seamless experience for our clients from start to finish.',
+    ],
+  },
+  {
+    _id: 'basement-remodeling',
+    name: 'Basement Remodeling',
+    image: basement,
+    information: `
+    Transforming your home with a beautifully renovated basement is an excellent investment. At Brighter Bay Builders, Inc., our team of skilled professionals specializes in basement renovations that turn your vision into reality. Whether you're looking to create a cozy family room, a modern home office, or a luxurious home theater, we have the expertise to design and build spaces that meet your needs.
+    
+    We pride ourselves on delivering exceptional customer service, and every renovation comes with a solid warranty for your peace of mind. Our experienced team ensures that all projects comply with local building codes, prioritizing safety and quality throughout the process. Let us help you maximize your home's potential and create the perfect space for family gatherings and relaxation.
+    `,
+    informationList: [
+      'Custom Design Options: Tailored solutions to create family rooms, home offices, or entertainment spaces that fit your lifestyle.',
+      'Expert Installation: Skilled professionals ensure quality craftsmanship and attention to detail in every renovation',
+      'Safety Compliance: Adherence to local building codes to prioritize safety and quality throughout the renovation process.',
+    ],
+  },
+  {
+    _id: 'deck',
+    name: 'Deck',
+    image: deck,
+    information:
+      'Brighter Bay Builders, Inc. offers exceptional service and quality craftsmanship for all your deck installation needs. Our commitment to customer satisfaction ensures that your outdoor space not only enhances the beauty of your home but also adds significant value to your property. No matter the type of deck you envision, our skilled team is dedicated to delivering the best possible results, tailored to your preferences.',
+    informationList: [
+      'Expertise in various deck styles: Our team is skilled in designing and building a wide range of deck types to fit your unique vision.',
+      'Quality materials: We use only high-quality materials to ensure durability and aesthetic appeal in every project.',
+      'Customer-focused approach: Your satisfaction is our top priority, and we work closely with you throughout the entire process.',
+      'Value addition: A professionally installed deck not only enhances your outdoor space but also increases the overall value of your home.',
+    ],
+  },
+  {
+    _id: 'restoration-service',
+    name: 'Restoration Service',
+    image: restoration,
+    information:
+      'Are you facing issues with leaks or damage in your home or office? Look no further—Brighter Bay Builders, Inc. is here to provide you with top-notch restoration services. Whether it’s the aftermath of a major leak or significant damage to your property, our dedicated team specializes in restoring both residential and commercial spaces. Serving the San Francisco Bay Area, we are committed to delivering exceptional service that revitalizes your space and brings it back to its original charm.',
+    informationList: [
+      'Specialized restoration services: Our team is equipped to handle a variety of restoration needs, ensuring your space is expertly restored.',
+      'Quick response time: We understand the urgency of damage situations and are ready to assist you promptly.',
+      'Quality workmanship: Our skilled professionals utilize high-quality materials and techniques for lasting results.',
+      'Customer satisfaction guarantee: We prioritize your needs and work closely with you to ensure your complete satisfaction throughout the restoration process.',
+    ],
+  },
+  {
+    _id: 'carpentry',
+    name: 'Carpentry',
+    image: carpentry,
+    information:
+      'When it comes to carpentry services in the San Francisco Bay Area, Brighter Bay Builders, Inc. is synonymous with exceptional service and quality. Our skilled carpenters are ready to assist you with maintenance, repairs, and custom building projects. Known for their expertise and efficiency, our team is dedicated to meeting the unique needs of each client.At Brighter Bay, we prioritize your peace of mind, ensuring all work is completed legally and responsibly. We offer competitive pricing and consistently deliver projects on schedule. Our outstanding customer service is recognized across the industry, with clients praising our friendly and professional approach. We work closely with you to align your budget and specific requirements, providing a range of services including the repair and installation of wooden fixtures, doors, cabinets, trims, and baseboards.',
+    informationList: [
+      'Comprehensive carpentry services: From repairs to custom installations, our team covers all your carpentry needs.',
+      'Legal compliance assurance: We handle all projects responsibly to avoid any legal implications for our clients.',
+      'On-time project delivery: Our commitment to deadlines ensures that your projects are completed as scheduled.',
+      'Tailored solutions: We collaborate with clients to meet their unique needs and budget requirements for every project.',
+    ],
+  },
+  {
+    _id: 'demolition',
+    name: 'Demolition',
+    image: demolition,
+    information:
+      "At Brighter Bay Builders, Inc., we provide expert demolition services tailored to your specific needs. Whether you're planning a remodel or a complete home overhaul, our team is equipped to handle the job safely and efficiently. We specialize in preparing sites by conducting thorough inspections and removing any hazardous materials, ensuring a secure environment for your project.Our dedicated professionals are skilled in industrial, commercial, and residential demolition, understanding the importance of their roles in delivering top-quality service. We pride ourselves on our competitive rates, making premium demolition services accessible to all our clients. Safety is our utmost priority; we adhere to strict safety protocols to protect both lives and property during the demolition process, and we ensure the site is meticulously cleaned after completion.",
+    informationList: [
+      'Expert site preparation: We conduct thorough inspections and safely remove hazardous materials for secure project execution.',
+      'Specialized demolition services: Our team is experienced in industrial, commercial, and residential demolitions.',
+      'Affordable rates: We offer competitive pricing without compromising on quality and safety.',
+      'Post-demolition cleanup: We ensure that the site is left clean and safe after our work is completed.',
+    ],
+  },
+  {
+    _id: 'flooring',
+    name: 'Flooring',
+    image: flooring,
+    information:
+      'At Brighter Bay Builders, Inc., we pride ourselves on our extensive expertise in flooring installation for both residential and commercial spaces. Our proficiency spans a wide range of flooring types, including hardwood, carpet, ceramic, LVT, and more. You can trust us to deliver high-quality flooring solutions tailored to your needs.Whether you require concrete, tile, wood, or any other flooring material for your home or office, we are committed to providing exceptional services that elevate your space. Our experience and professionalism have established us as leaders in the flooring industry, ready to transform your properties into stunning showcases.We take a comprehensive approach that combines premium materials with outstanding customer service, ensuring a customized flooring installation experience for each client. Our team of professionals is dedicated to executing every project with precision and care. With reasonable rates and a focus on your unique tastes and preferences, we aim to provide flooring solutions that truly resonate with your vision.',
+    informationList: [
+      'Expertise in diverse flooring types: We specialize in hardwood, carpet, ceramic, LVT, and more for any space.',
+      'Commitment to quality: Our professionalism and experience set us apart in delivering top-notch flooring solutions.',
+      'Custom installation approach: We combine premium materials and excellent service for a tailored experience.',
+      'Affordable rates: We provide exceptional flooring services that align with your tastes and budget.',
+    ],
+  },
+  {
+    _id: 'maintenance-service',
+    name: 'Maintenance service',
+    image: maintenance,
+    information:
+      'At Brighter Bay Builders, Inc., we are dedicated to supporting property management companies in the upkeep of their residential and commercial properties. Our expertise as contractors in the San Francisco Bay Area allows us to provide comprehensive maintenance services tailored to the unique needs of property managers.We understand the challenges that come with managing multiple properties, and our commitment to excellence ensures that we deliver reliable solutions that enhance the value and appeal of each space. Our strong partnerships with various property management companies enable us to maintain open lines of communication and foster trust in our services.',
+    informationList: [
+      'Comprehensive maintenance services: We specialize in both residential and commercial property upkeep.',
+      'Expertise in property management: Our experience allows us to understand the unique needs of property managers.',
+      'Strong partnerships: We maintain close relationships with multiple property management companies for seamless collaboration.',
+      'Commitment to excellence: Our focus is on delivering reliable and effective solutions that enhance property value.',
+    ],
+  },
+
+  {
+    _id: 'fences-gates',
+    name: 'fences & gates',
+    image: fences,
+    information:
+      'Brighter Bay Builders, Inc. is your premier choice for fence and gate installation in the San Francisco Bay Area. As a trusted name in the home improvement industry, we specialize in delivering top-notch fencing solutions for both residential and commercial properties.We take pride in our reputation for excellence, built on years of providing high-quality service. Our collaboration with skilled designers, architects, and installation experts ensures that we meet and exceed industry standards, earning us the respect of homeowners and property developers alike.',
+    informationList: [
+      'Expert installation services: We specialize in various types of fencing, including aluminum, wrought iron, wood, vinyl, and frameless glass.',
+      'Trusted reputation: Our commitment to quality has made us a preferred contractor in the Bay Area.',
+      'Collaborative approach: We work closely with top designers and architects to bring your vision to life.',
+      'Free quotes available: Contact us for a personalized quote and experience our exceptional service.',
+    ],
+  },
+
+  {
+    _id: 'windows-and-doors-installation',
+    name: 'windows and doors installations',
+    image: windows,
+    information:
+      "At Brighter Bay Builders, Inc., we recognize that doors are essential elements of every home and office, serving as key entry and exit points. A well-chosen door not only enhances security but also makes a lasting impression on visitors, reflecting your personality and style. That's why we specialize in providing high-quality door installation services throughout the San Francisco Bay Area, including historic neighborhoods.We understand the significance of having strong, reliable doors for both residential and commercial properties. Our team is dedicated to delivering exceptional door installation and repair services that enhance the functionality and aesthetic of your space. Over the years, our unwavering commitment to customer satisfaction has earned us a reputation for excellence, instilling confidence in our clients.",
+    informationList: [
+      'Expert installation and repair: Proficient in a wide variety of door types for homes and businesses.',
+      'Commitment to quality: We prioritize strong, durable doors that meet both aesthetic and security needs.',
+      'Customer satisfaction focus: Our success is driven by our dedication to the interests of our clients.',
+      'Affordable pricing: Enjoy top-notch door installation services at competitive rates.',
+    ],
+  },
+
+  {
+    _id: 'concrete-masonry',
+    name: 'concrete & masonry',
+    image: concrete,
+    information:
+      "At Brighter Bay Builders, Inc., you can rely on our team of seasoned professionals for all your concrete and masonry needs. We specialize in a comprehensive range of services designed to enhance the aesthetic appeal of your home or commercial property. Our expertise ensures that your space receives the attention it deserves, transforming it into a beautiful environment. Whether you need new installations or replacements, we offer quality services for sidewalks, patios, retaining walls, and driveways. We understand that the right concrete and masonry elements can significantly elevate the look of your property, and our commitment to excellence sets us apart from the competition. With a dedicated team of experts operating in the San Francisco Bay Area, we strive to exceed your expectations, ensuring your environment is both functional and visually appealing. If you're looking for a reliable partner to enhance your property, Brighter Bay Builders, Inc. is here to help.",
+    informationList: [
+      'Comprehensive services: Specializing in sidewalks, patios, retaining walls, and driveways.',
+      'Expert craftsmanship: Our professionals deliver top-quality concrete and masonry work.',
+      'Transformative results: Enhance the beauty and functionality of your home or office space.',
+      'Local expertise: Serving the San Francisco Bay Area with a commitment to customer satisfaction.',
+    ],
+  },
+
+  {
+    _id: 'paint',
+    name: 'paint',
+    image: paint,
+    information:
+      "At Brighter Bay Builders, Inc., we believe that a fresh coat of paint can transform your living space and reflect your unique style. Our team of skilled painting contractors specializes in enhancing both residential and commercial properties, ensuring that your environment feels inviting and comfortable. Whether you're looking to revitalize your home or create an inspiring workspace, we are dedicated to delivering exceptional results that meet your needs. Our interior painting services cover all areas of your home, including living rooms, kitchens, bedrooms, bathrooms, and more. For the exterior, we provide comprehensive painting services for decks, fences, doors, and outbuildings, bringing new life to your outdoor spaces as well. Trust Brighter Bay Builders, Inc. to deliver quality craftsmanship and stunning finishes in every project we undertake.",
+    informationList: [
+      'Transformative interiors: Specializing in living rooms, kitchens, bedrooms, and more.',
+      'Comprehensive exterior services: Painting for decks, fences, doors, and outbuildings.',
+      'Professional team: Experienced painting contractors committed to quality.',
+      'Client satisfaction: Dedicated to creating beautiful, comfortable living and working spaces.',
+    ],
+  },
+
+  {
+    _id: 'drywall-repair',
+    name: 'drywall repair',
+    image: drywall,
+    information:
+      "At Brighter Bay Builders, Inc., our drywall installation and repair experts are committed to delivering top-notch service for both residential and commercial renovations. Whether you need professional assistance for drywall installation or require skilled repairs for cracks and damage, our experienced team is here to support you. You can count on us for quality workmanship at competitive rates. If you're looking to elevate your renovation project, Brighter Bay Builders, Inc. is the reliable partner you need. Our bonded, insured, and licensed professionals are dedicated to providing exceptional drywall services that meet your specific requirements.",
+    informationList: [
+      'Expert installation: Professional drywall services for homes and businesses.',
+      'Reliable repairs: Skilled team ready to fix cracks and damage.',
+      'Affordable rates: Quality service without breaking the bank.',
+      'Licensed and insured: Peace of mind with every project.',
+    ],
+  },
+  {
+    _id: 'handyman-service',
+    name: 'handyman service',
+    image: handyman,
+    information:
+      'At Brighter Bay Builders, Inc., we take pride in our team of skilled handymen who are dedicated to helping our clients tackle tasks that may be beyond their expertise. Our professionals provide a wide range of services tailored for homeowners, property management companies, landlords, and tenants. If you’ve recently moved into a new apartment and need the assistance of experienced handymen who truly understand their craft, look no further. Engaging our services ensures fantastic results that will meet your needs.',
+    informationList: [
+      'Comprehensive services: Tailored solutions for homeowners and tenants.',
+      'Expertise you can trust: Skilled handymen with a proven track record.',
+      'Reliable support: Ideal for property management and renovation needs.',
+      'Fantastic results: Commitment to excellence in every task.',
+    ],
+  },
+  {
+    _id: 'commercial-facility',
+    name: 'commercial facility',
+    image: commercial,
+    information:
+      "Are you in search of a trusted and reliable contractor to enhance your existing offices and business premises, making them more comfortable, stylish, and functional in the San Francisco Bay Area? Brighter Bay Builders, Inc. is your go-to contracting firm. We specialize in creating custom and satisfactory commercial renovations and remodels that will transform your commercial facility. Our goal is to improve your office space's value and style at competitive rates while meeting modern performance standards.",
+    informationList: [
+      'Trusted expertise: Your reliable partner for commercial renovations.',
+      'Customized solutions: Tailored remodels to suit your specific needs.',
+      'Value enhancement: Boost the functionality and style of your workspace.',
+      'Competitive pricing: Quality renovations at mouthwatering rates.',
+    ],
+  },
+  {
+    _id: 'rental-turnover',
+    name: 'rental turnover',
+    image: rental,
+    information:
+      'Do you dread rental turnovers? Say goodbye to rental turnover headaches! Getting a rental property ready for new tenants can be a nightmare. But with Brighter Bay Builders, Inc., you can say goodbye to the headaches and hello to a stress-free rental turnover process. At Brighter Bay Builders, Inc., our renovation services include a wide variety of rental turnover solutions designed to keep your property in optimum condition.Revamp your rental property in no time with our expert rental turnover services!',
+    informationList: [
+      'Maximize income: Modernize your rental property for higher returns.',
+      'Enhance curb appeal: Attract potential tenants with appealing aesthetics.',
+      'Comprehensive repairs: From minor updates to major renovations, we’ve got you covered.',
+      'Stress-free process: Experience a seamless turnover with our expert team.',
     ],
   },
 ];

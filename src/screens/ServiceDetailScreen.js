@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { memo, useMemo } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import IndexList from '../components/reusable/IndexList';
 import ServicesInformation from '../components/servicespage/ServicesInformation';
+import ContactJumbo from '../components/reusable/ContactJumbo';
 import { services } from '../data';
 import NoMatch from '../components/NoMatch';
 
 const ServiceDetailScreen = ({ match }) => {
-  const service = services.find((service) => service._id === match.params.id);
+  const service = useMemo(
+    () => services.find((s) => s._id === match.params.id),
+    [match.params.id]
+  );
 
   if (!service) {
     return <NoMatch />;
@@ -24,8 +28,9 @@ const ServiceDetailScreen = ({ match }) => {
           </Col>
         </Row>
       </Container>
+      <ContactJumbo />
     </>
   );
 };
 
-export default ServiceDetailScreen;
+export default memo(ServiceDetailScreen);

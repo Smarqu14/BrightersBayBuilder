@@ -1,0 +1,32 @@
+.jumbo__image {
+  background: url('https://images.pexels.com/photos/3965519/pexels-photo-3965519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')
+    no-repeat fixed bottom;
+  background-size: cover;
+  color: #efefef;
+  height: 150px;
+  position: relative;
+  z-index: -2;
+  margin: 0;
+}
+
+.jumbo__overlay {
+  background-color: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.jumbo__header {
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+}
+.jumbo__subheader {
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+}

@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
+import { useParams } from 'react-router-dom';
 import { projects } from '../data';
-
 import GalleryList from '../components/projectspage/GalleryList';
 import IndexList from '../components/reusable/IndexList';
 import NoMatch from '../components/NoMatch';
+import ContactJumbo from '../components/reusable/ContactJumbo';
 
-const ProjectDetailScreen = ({ match }) => {
-  const project = projects.find((project) => project._id === match.params.id);
+const ProjectDetailScreen = memo(() => {
+  const { id } = useParams();
+  const project = projects.find((project) => project._id === id);
 
   if (!project) {
     return <NoMatch />;
@@ -25,8 +27,9 @@ const ProjectDetailScreen = ({ match }) => {
           </Col>
         </Row>
       </Container>
+      <ContactJumbo />
     </>
   );
-};
+});
 
 export default ProjectDetailScreen;

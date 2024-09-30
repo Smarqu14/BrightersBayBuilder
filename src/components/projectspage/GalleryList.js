@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import ModalComponent from './ModalComponent';
 import GalleryItem from './GalleryItem';
-
 import { Image } from 'react-bootstrap';
 
-const GalleryList = ({ project }) => {
+const GalleryList = memo(({ project }) => {
   const [modal, setModal] = useState(false);
 
   const showModal = () => {
-    setModal(!modal);
+    setModal((prev) => !prev);
   };
 
   return (
@@ -17,18 +16,17 @@ const GalleryList = ({ project }) => {
         <ModalComponent modal={modal} setModal={setModal} project={project} />
       ) : (
         <>
-          {' '}
           <h2 className='project__header image__header'>{project.name}</h2>
           <Image
             src={project.image}
             className='img-card hover-effect'
-            onClick={() => showModal()}
+            onClick={showModal}
           />
-          <GalleryItem project={project} showModal={showModal} />{' '}
+          <GalleryItem project={project} showModal={showModal} />
         </>
       )}
     </>
   );
-};
+});
 
 export default GalleryList;

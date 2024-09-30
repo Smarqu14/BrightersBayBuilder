@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, memo } from 'react';
 import { Tab, Row, Col, ListGroup, Accordion, Button } from 'react-bootstrap';
-
 import { LinkContainer } from 'react-router-bootstrap';
 
-const IndexList = ({ data }) => {
+const IndexList = memo(({ data }) => {
   const useWindowSize = () => {
     const [windowSize, setWindowSize] = useState({
       width: undefined,
@@ -11,13 +10,10 @@ const IndexList = ({ data }) => {
 
     useEffect(() => {
       const handleResize = () => {
-        setWindowSize({
-          width: window.innerWidth,
-        });
+        setWindowSize({ width: window.innerWidth });
       };
 
       window.addEventListener('resize', handleResize);
-
       handleResize();
 
       return () => window.removeEventListener('resize', handleResize);
@@ -26,15 +22,11 @@ const IndexList = ({ data }) => {
     return windowSize;
   };
 
-  const listGroupItem = data.map((item) => {
-    return (
-      <LinkContainer to={item._id} key={item._id}>
-        <ListGroup.Item action href={`/${item._id}`}>
-          {item.name}
-        </ListGroup.Item>
-      </LinkContainer>
-    );
-  });
+  const listGroupItem = data.map((item) => (
+    <LinkContainer to={item._id} key={item._id}>
+      <ListGroup.Item action>{item.name}</ListGroup.Item>
+    </LinkContainer>
+  ));
 
   const sizes = useWindowSize();
 
@@ -67,6 +59,6 @@ const IndexList = ({ data }) => {
       )}
     </>
   );
-};
+});
 
 export default IndexList;

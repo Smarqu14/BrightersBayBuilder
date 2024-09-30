@@ -1,0 +1,20 @@
+.card-body-reviews {
+  border: 1px solid #ffffff;
+  height: 300px;
+  border-radius: 13px;
+  background: #f1efef;
+  box-shadow: 19px 19px 38px #d2d0d0, -19px -19px 38px #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body-reviews:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn__reviews {
+  margin-top: 45px;
+  margin-bottom: 70px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}

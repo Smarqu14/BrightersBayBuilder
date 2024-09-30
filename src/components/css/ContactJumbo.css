@@ -1,0 +1,54 @@
+.contact-jumbo {
+  background-color: #0056b3;
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+}
+
+.contact-column {
+  margin: 1rem 0;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-jumbo {
+    padding: 1rem 0;
+  }
+
+  .contact-icon {
+    font-size: 1.5rem;
+  }
+
+  .contact-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-jumbo {
+    padding: 0.5rem 0;
+  }
+
+  .contact-icon {
+    font-size: 1.2rem;
+  }
+
+  .contact-link {
+    font-size: 0.8rem;
+  }
+}
