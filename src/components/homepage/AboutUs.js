@@ -32,15 +32,19 @@ const AboutUs = () => {
       <Row>
         <Col>
           <h2 className='about-us-title'>About Us</h2>
-          <p>
-            Brighter Bay Builders, Inc. is your go-to contracting firm and
-            professional general contractor in the San Francisco Bay Area. We
-            specialize in offering satisfactory residential and commercial
-            remodels at cost-effective rates.
+          <p className='about-us-paragraph'>
+            Transform your space with Brighter Bay Builders, Inc., your trusted
+            general contractor serving the San Francisco Bay Area. Whether
+            you're looking to refresh your home or elevate your business, we
+            specialize in delivering exceptional residential and commercial
+            remodels tailored to your needs. Our commitment to quality and
+            customer satisfaction, all at cost-effective rates, ensures you get
+            the best value for your investment. Let's collaborate to bring your
+            vision to life and create a space you'll love for years to come!
           </p>
         </Col>
       </Row>
-      <Row>
+      <Row fluid>
         <Col md={4} className='image-column'>
           <img src={noe1} alt='About Us' className='about-us-image' />
         </Col>

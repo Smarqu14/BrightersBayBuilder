@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../logos/logo-white.png';
+import logo from '../logos/bbb-logo.webp';
 import './css/Header.css';
 
 const navLinks = [
@@ -33,11 +33,7 @@ const Header = () => {
       <Navbar expand='lg'>
         <Container className='d-flex justify-content-between align-items-center'>
           <Navbar.Brand as={Link} to='/' className='flex-shrink-0 navbar'>
-            <img
-              src={logo}
-              className='logo logo-header'
-              alt='Brighter Bay Builder, Inc.'
-            />
+            <img src={logo} className='logo' alt='Brighter Bay Builder, Inc.' />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls='basic-navbar-nav' />

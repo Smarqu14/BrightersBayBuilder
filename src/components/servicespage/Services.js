@@ -5,7 +5,7 @@ import ServiceItem from './ServiceItem';
 const Services = React.memo(({ services }) => {
   return (
     <Container className='mb-5' fluid>
-      <p className='p-5 paragraph__text'>
+      <Container className='p-5 paragraph__text'>
         Whether it's a multimillion-dollar technical facility or the renovation
         of a single office, <strong>Brighter Bay Builders, Inc.</strong> is
         committed to exceeding our clients' expectations through a proactive and
@@ -14,7 +14,7 @@ const Services = React.memo(({ services }) => {
         excellence. <strong>Brighter Bay Builders, Inc.</strong> uses cutting
         edge construction technology to execute the work and deliver more
         excellent value through meticulous planning and conscientious execution.
-      </p>
+      </Container>
       <ServiceItem services={services} />
     </Container>
   );

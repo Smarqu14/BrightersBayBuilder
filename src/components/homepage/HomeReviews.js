@@ -16,14 +16,15 @@ const HomeReviews = () => {
           <Row className='justify-content-center'>
             <ReviewCard />
           </Row>
-          <Row className='justify-content-center '>
-            <Button
+          <Row className='justify-content-center'>
+            {/* <Button
               className='btn__reviews'
               variant='outline-danger'
               target='_blank'
             >
               READ ALL REVIEWS
-            </Button>{' '}
+            </Button>{' '} */}
+            <div className='btn__reviews' />
           </Row>
         </Container>
       </Container>

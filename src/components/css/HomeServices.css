@@ -58,16 +58,15 @@
 }
 
 .about-section h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .about-section p {
   font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 15px;
-  text-align: justify;
-  max-width: 800px;
+  line-height: 1.2;
+  text-align: center;
+  max-width: 95rem;
   margin-left: auto;
   margin-right: auto;
 }

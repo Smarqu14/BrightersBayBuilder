@@ -11,10 +11,10 @@ const ContactJumbo = () => {
       link: 'tel:4152258732',
     },
     {
-      icon: 'far fa-envelope', // Thinner email icon
+      icon: 'far fa-envelope',
       label: 'Email Us',
-      value: 'andres.brighterbay@gmail.com',
-      link: 'mailto:andres.brighterbay@gmail.com',
+      value: 'info.brighterbay@gmail.com',
+      link: 'mailto:info.brighterbay@gmail.com',
     },
     {
       icon: 'far fa-map', // Thinner map icon

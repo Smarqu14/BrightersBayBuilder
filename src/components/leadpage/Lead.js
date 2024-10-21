@@ -15,7 +15,7 @@ const Lead = React.memo(() => {
             className='lead-image'
           />
         </Col>
-        <Col md={6}>
+        <Col md={4}>
           <h2 className='lead-header'>LEAD BASED PAINT SERVICES</h2>
           <p className='lead-paragraph'>
             At Brighter Bay Builders, Inc., serving the San Francisco Bay Area,

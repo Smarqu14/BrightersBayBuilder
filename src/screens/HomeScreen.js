@@ -16,7 +16,7 @@ const HomeScreen = memo(() => {
       <Slider images={sliderData} />
       <HomeServices images={servicesData} />
       <AboutUs />
-      <HomeReviews />
+      <HomeReviews /> 
       <VideoPlayer />
       <ContactJumbo />
     </div>

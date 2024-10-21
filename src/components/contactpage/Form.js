@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, Row, Col } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
 import firebase from '../../firebase';
 
@@ -66,53 +66,61 @@ const FormContainer = () => {
 
   return (
     <Form onSubmit={sendEmail}>
-      <Form.Group controlId='formGridName'>
-        <Form.Label>Name</Form.Label>
-        <Form.Control
-          type='text'
-          required
-          placeholder='Enter name'
-          value={formData.name}
-          onChange={handleOnChange}
-          name='name'
-        />
-      </Form.Group>
-
-      <Form.Group controlId='formGroupEmail'>
-        <Form.Label>Email</Form.Label>
-        <Form.Control
-          type='email'
-          placeholder='Enter email'
-          name='email'
-          onChange={handleOnChange}
-          value={formData.email}
-        />
-      </Form.Group>
-
-      <Form.Group controlId='formGridPhoneNumber'>
-        <Form.Label>Phone Number</Form.Label>
-        <Form.Control
-          type='text'
-          required
-          placeholder='Enter phone number'
-          value={formData.number}
-          onChange={handleOnChange}
-          name='number'
-        />
-      </Form.Group>
-
-      <Form.Group controlId='formGridAddress'>
-        <Form.Label>Address</Form.Label>
-        <Form.Control
-          type='text'
-          placeholder='Enter project address'
-          required
-          name='address'
-          value={formData.address}
-          onChange={handleOnChange}
-        />
-      </Form.Group>
-
+      <Row>
+        <Col xs={12} md={6} className='form-col'>
+          <Form.Group controlId='formGridName'>
+            <Form.Label>Name</Form.Label>
+            <Form.Control
+              type='text'
+              required
+              placeholder='Enter name'
+              value={formData.name}
+              onChange={handleOnChange}
+              name='name'
+            />
+          </Form.Group>
+        </Col>
+        <Col xs={12} md={6} className='form-col'>
+          <Form.Group controlId='formGroupEmail'>
+            <Form.Label>Email</Form.Label>
+            <Form.Control
+              type='email'
+              placeholder='Enter email'
+              name='email'
+              onChange={handleOnChange}
+              value={formData.email}
+            />
+          </Form.Group>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={6} className='form-col'>
+          <Form.Group controlId='formGridPhoneNumber'>
+            <Form.Label>Phone Number</Form.Label>
+            <Form.Control
+              type='text'
+              required
+              placeholder='Enter phone number'
+              value={formData.number}
+              onChange={handleOnChange}
+              name='number'
+            />
+          </Form.Group>
+        </Col>
+        <Col xs={12} md={6} className='form-col'>
+          <Form.Group controlId='formGridAddress'>
+            <Form.Label>Address</Form.Label>
+            <Form.Control
+              type='text'
+              placeholder='Enter project address'
+              required
+              name='address'
+              value={formData.address}
+              onChange={handleOnChange}
+            />
+          </Form.Group>
+        </Col>
+      </Row>
       <Form.Group controlId='formGridTextMessage'>
         <Form.Label>Message</Form.Label>
         <Form.Control

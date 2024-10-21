@@ -6,9 +6,9 @@ import './css/Footer.css';
 const Footer = memo(() => {
   return (
     <footer className='footer'>
-      <Container className='container__footer'>
-        <Row>
-          <Col className='pt-3'>
+      <Container fluid className='container__footer'>
+        <Row className='text-center'>
+          <Col md={4}>
             <span>
               <a
                 href='https://www.houzz.com/pro/webuser-791354564/brighter-bay-builders-inc'
@@ -32,7 +32,7 @@ const Footer = memo(() => {
               </a>
             </span>
           </Col>
-          <Col className='pt-3'>
+          <Col className='contact__details-info' md={4}>
             <ul className='contact__details-info'>
               <li>
                 <strong>Brighter Bay Builders, Inc.</strong>
@@ -44,7 +44,7 @@ const Footer = memo(() => {
               <li>
                 <i className='fas fa-envelope'></i>
                 <a href='mailto:andres.brighterbay@gmail.com?subject=Interested in construction services'>
-                  andres.brighterbay@gmail.com
+                  info.brighterbay@gmail.com
                 </a>
               </li>
               <li>
@@ -62,7 +62,7 @@ const Footer = memo(() => {
               <li>Copyright &copy; Brighter Bay Builders, Inc.</li>
             </ul>
           </Col>
-          <Col className='pt-3'>
+          <Col className='' md={4}>
             <div className='footer__social-info'>
               {[
                 {
@@ -85,6 +85,10 @@ const Footer = memo(() => {
                   href: 'https://www.youtube.com/watch?v=EUvVeAvoS8k',
                   icon: 'fab fa-youtube',
                 },
+                {
+                  href: 'https://maps.app.goo.gl/MbSvPMHs8rD9GBRh6',
+                  icon: 'fab fa-google',
+                },
               ].map(({ href, icon }) => (
                 <span key={href}>
                   <a href={href} target='_blank' rel='noreferrer'>
@@ -93,11 +97,11 @@ const Footer = memo(() => {
                 </span>
               ))}
             </div>
-            <span className='designed'>
+            {/* <span className='designed'>
               <a href='mailto:steveantonio00@gmail.com?subject=Interested in a website'>
                 Designed By Steve Marquez
               </a>
-            </span>
+            </span> */}
           </Col>
         </Row>
       </Container>

@@ -18,7 +18,7 @@ const ProjectsScreen = () => {
     <>
       <Jumbo info={info} />
       <Container fluid style={{ backgroundColor: '#f2f2f2' }}>
-        <Row>
+        <Row fluid>
           {projects.map((project) => (
             <Col key={project._id} sm={12} md={6} xl={6} className='p-4'>
               <Project project={project} />

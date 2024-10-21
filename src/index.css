@@ -18,10 +18,12 @@ main {
   opacity: 1;
 }
 .img-card {
-  max-height: 300px;
-  width: 100%;
-  min-height: 250px;
+  width: 100%; /* Stretches the image across the screen */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 350px; /* Sets a maximum height */
+  min-height: 250px; /* Sets a minimum height */
   object-fit: cover;
+  display: block;
 }
 
 .img-card-small {
@@ -30,16 +32,22 @@ main {
   min-height: 250px;
   object-fit: cover;
   cursor: pointer;
+  object-fit: cover;
 }
 .project__header {
   margin-bottom: 30px;
+}
+
+.lead-image {
+  padding-left: 200px;
+  object-fit: cover;
 }
 
 /* --------- */
 /* Modal */
 
 .modal__container {
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 .modal__image {
@@ -79,6 +87,17 @@ main {
   font-size: 3.5rem;
   margin-bottom: 30px;
 }
+.image__view__gallery {
+  background: radial-gradient(#0056b3, rgb(152, 152, 239));
+  background-size: 100% 200%;
+  background-position: 50% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
 
 /* MEDIA-QUERIES */
 
@@ -93,6 +112,7 @@ main {
   /* Reusuable css */
   .paragraph__text {
     font-size: 1rem;
+    text-align: center;
   }
   /* services */
   .img-rounded {
@@ -241,6 +261,7 @@ main {
   /* Reusuable css */
   .paragraph__text {
     font-size: 1rem;
+    text-align: center;
   }
   .paragraph__text-pad {
     font-size: 1rem;
@@ -322,6 +343,7 @@ main {
   /* reusable */
   .paragraph__text {
     font-size: 0.95rem;
+    text-align: center;
   }
   .service__quality-list {
     font-size: 0.9rem;
@@ -340,7 +362,8 @@ main {
     width: 100%;
   }
   .logo {
-    height: 50px;
+    /* height: 70px; */
+    /* width: 30px; */
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -441,7 +464,7 @@ main {
     font-size: 1.3rem;
   }
   .logo {
-    height: 50px;
+    /* height: 70px; */
   }
   .img-card-small {
     height: 150px;

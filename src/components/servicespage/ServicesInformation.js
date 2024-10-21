@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Container } from 'react-bootstrap';
 import InfoList from './InfoList';
 
-const ServicesInformation = React.memo(({ service }) => {
+const ServicesInformation = ({ service }) => {
   return (
     <Container fluid className='my-5'>
       <h1 className='image__header'>{service.name}</h1>
@@ -14,6 +14,6 @@ const ServicesInformation = React.memo(({ service }) => {
       <InfoList service={service} />
     </Container>
   );
-});
+};
 
 export default ServicesInformation;

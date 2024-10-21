@@ -24,6 +24,9 @@
   height: 50px;
 }
 
+.logo {
+  width: 150px;
+}
 @media (max-width: 768px) {
   .navlink {
     padding: 8px;

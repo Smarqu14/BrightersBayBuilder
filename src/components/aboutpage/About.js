@@ -2,7 +2,6 @@ import React from 'react';
 import { aboutData } from '../../data';
 import { Container, Image, Row, Col } from 'react-bootstrap';
 import '../css/About.css';
-import team from '../../images/team.webp';
 
 const About = React.memo(() => {
   const { src, alt, aboutHeader, aboutSubheader } = aboutData[0];
@@ -48,7 +47,14 @@ const About = React.memo(() => {
             <Image src={src} alt={alt} className='image' loading='lazy' />
           </div>
           <div className='about__image'>
-            <Image src={team} alt={alt} className='image' loading='lazy' />
+            <Image
+              src={
+                'https://images.unsplash.com/photo-1521783593447-5702b9bfd267?q=80&w=2104&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              }
+              alt={alt}
+              className='image'
+              loading='lazy'
+            />
           </div>
         </Col>
         <Col sm>

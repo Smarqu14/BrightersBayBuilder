@@ -8,6 +8,7 @@ const ModalComponent = memo(({ modal, setModal, project }) => {
       show={modal}
       onHide={() => setModal(false)}
       dialogClassName='modal__container'
+      size='xl'
     >
       <ModalCarousel project={project} />
     </Modal>
