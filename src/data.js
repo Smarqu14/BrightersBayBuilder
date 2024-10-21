@@ -107,7 +107,7 @@ export const services = [
     _id: 'bathroom-remodeling',
     name: 'Bathroom Remodeling',
     image:
-      'https://images.pexels.com/photos/6301176/pexels-photo-6301176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.unsplash.com/photo-1638799869566-b17fa794c4de?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     information:
       'Whether you are looking to upgrade elements of an existing bathroom or completely revamp an entire bathroom layout and design, we have a team that can bring your vision to reality. We handle bathroom projects from start to finish for apartments, brownstones, and town-homes across San Francisco Bay Area. Our  expert builders can take even the most detailed work, and our craftsmanship is second to none. You’ll be proud to show off your luxurious bathroom! We are proud of the work we do and never take the smallest details for granted. Complete customer satisfaction is our highest priority.',
     informationList: [
