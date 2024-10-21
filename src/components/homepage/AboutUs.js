@@ -40,7 +40,7 @@ const AboutUs = () => {
             remodels tailored to your needs. Our commitment to quality and
             customer satisfaction, all at cost-effective rates, ensures you get
             the best value for your investment. Let's collaborate to bring your
-            vision to life and create a space you'll love for years to come!
+            vision to life and create a space youll love for years to come!
           </p>
         </Col>
       </Row>
