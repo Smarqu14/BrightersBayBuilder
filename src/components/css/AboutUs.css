@@ -80,6 +80,40 @@
 @media (max-width: 768px) {
   .about-us-image {
     width: 300px;
-    height: 300px;
+    height: 400px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .about-us-image {
+    width: 80%; /* Make the image smaller on mobile */
+    margin: 0 auto; /* Center the image */
+    border-radius: 50%;
+  }
+
+  .icon-column {
+    padding-left: 0; /* Remove left padding on mobile */
+  }
+
+  .icon-item {
+    padding-top: 20px; /* Less padding for mobile */
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us-title {
+    font-size: 1.8rem; /* Adjust title size for smaller screens */
+  }
+
+  .about-us-paragraph {
+    font-size: 1rem; /* Smaller text for mobile */
+  }
+
+  .icon-item h5 {
+    font-size: 1.2rem; /* Smaller title size */
+  }
+
+  .icon-item p {
+    font-size: 0.8rem; /* Smaller paragraph size */
   }
 }
