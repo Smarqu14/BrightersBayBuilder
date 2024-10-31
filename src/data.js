@@ -31,8 +31,8 @@ export const servicesImages = [
 
 export const sliderImages = [
   {
-    src: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Home Improvement',
+    src: sf,
+    title: 'New Builds & Accessory Dwelling Units',
   },
   {
     src: bath3,
@@ -42,10 +42,10 @@ export const sliderImages = [
     src: kitchen,
     title: 'Kitchen Improvement',
   },
-  {
-    src: sf,
-    title: 'New Builds & Accessory Dwelling Units',
-  },
+   {
+      src: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Home Improvement',
+    },
 ];
 
 export const reviews = [
