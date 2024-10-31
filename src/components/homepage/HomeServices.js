@@ -48,7 +48,7 @@ const HomeServices = memo(({ images }) => {
 
 const ServiceItem = memo(({ img }) => (
   <div className={`${img.class} gallery__listing`}>
-    <Link to='/projects'>
+    <Link to='/services'>
       <p className='gallery__title'>{img.title}</p>
     </Link>
     <Image

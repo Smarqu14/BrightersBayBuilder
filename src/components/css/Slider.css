@@ -22,8 +22,8 @@
 }
 
 .alice-carousel__dots li {
-  height: 10px !important;
-  width: 10px !important;
+  height: 15px !important;
+  width: 15px !important;
 }
 
 .alice-carousel__prev-btn,
@@ -42,9 +42,9 @@
 
 .slider__title {
   font-size: 2rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(255, 255, 255);
   font-weight: 400;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;

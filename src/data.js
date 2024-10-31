@@ -1,12 +1,8 @@
-import exterior2 from './images/exterior2.jpg';
-import exterior3 from './images/exterior3.jpg';
-import exterior4 from './images/exterior4.jpg';
-import exterior6 from './images/exterior6.jpg';
-
-import ashbury1 from './images/ashburyheights1.jpg';
-import ashbury2 from './images/ashburyheights2.jpg';
-import ashbury4 from './images/ashburyheights4.jpg';
-import ashbury6 from './images/ashburyheights6.jpg';
+import bath1 from './images/bath-min.webp';
+import bath2 from './images/bath2-min.webp';
+import bath3 from './images/bath3-min.webp';
+import kitchen from './images/kitchen-min.webp';
+import sf from './images/SF-min.webp';
 
 import rental from './images/rental.webp';
 
@@ -39,15 +35,15 @@ export const sliderImages = [
     title: 'Home Improvement',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600607688066-890987f18a86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: bath3,
     title: 'Bathroom Improvement',
   },
   {
-    src: 'https://images.unsplash.com/photo-1682888813913-e13f18692019?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: kitchen,
     title: 'Kitchen Improvement',
   },
   {
-    src: 'https://images.unsplash.com/photo-1652218463054-6ba1551d064c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: sf,
     title: 'New Builds & Accessory Dwelling Units',
   },
 ];
@@ -379,24 +375,18 @@ export const projects = [
   {
     _id: 'noe-residence-2',
     name: 'Noe Valley Residence 2',
-    image:
-      'https://images.unsplash.com/photo-1503011510-c0e00592713b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: bath1,
     imagesList: [
       'https://images.unsplash.com/photo-1533759413974-9e15f3b745ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.unsplash.com/photo-1503011510-c0e00592713b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?q=80&w=2009&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      bath1,
     ],
   },
   {
-    _id: 'exterior',
-    name: 'Exterior Remodeling',
-    image: exterior6,
-    imagesList: [exterior6, exterior2, exterior3, exterior4],
-  },
-  {
-    _id: 'ashbury-residence',
-    name: 'Ashbury Heights',
-    image: ashbury1,
-    imagesList: [ashbury1, ashbury2, ashbury6, ashbury4],
+    _id: 'bathroom',
+    name: 'Bathroom Remodeling',
+    image: bath3,
+    imagesList: [bath2, bath3],
   },
 ];
